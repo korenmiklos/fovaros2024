@@ -1,20 +1,21 @@
+clear
+use "data/2024/budapest.dta"
 egen szavazokor = group(MAZ TAZ TEVK szavkor)
 
 local partok mkkp mihazank tisza lmp fidesz dk momentum 
 local kispartok neppartjan munkaspart szolidaritas 
-local jeloltek karacsony vitezy grundtner 
+local jeloltek karacsony vitezy grundtner ervenytelen 
 
 generate total = karacsony + vitezy + grundtner
 generate part_total = mkkp + mihazank + neppartjan + munkaspart + szolidaritas + tisza + lmp + fidesz + dk
-foreach part in fidesz dk tisza {
-    generate `part'_share = `part' / part_total
-    foreach p in `partok' {
-        generate `p'_X_`part' = `p' * `part'_share
-    }
+generate kispartok = neppartjan + munkaspart + szolidaritas
+generate fidesz_share = fidesz / part_total
+foreach p in `partok' {
+    generate `p'_X_fidesz = `p' * fidesz_share
 }
 
 foreach jelolt in `jeloltek' {
-    regress `jelolt' `partok' if part_total>0, noconstant
+    regress `jelolt' `partok' kispartok if part_total>0, noconstant
     foreach part in `partok' {
         scalar `jelolt'_`part' = _b[`part']
         *assert inrange(`jelolt'_`part', 0, 1)
@@ -24,12 +25,13 @@ foreach jelolt in `jeloltek' {
     scatter `jelolt' `jelolt'_predict, msize(tiny)
 
     * evaluate model
-    summarize ae_`jelolt', detail
+    summarize ae_`jelolt' if `jelolt'>0 & `jelolt'_predict>0, detail
     scalar hiba_`jelolt' = r(p95)
-
-    * check for nonlinearity
-    regress `jelolt' `partok' *_X_fidesz
 }
+
+* manually adjust models so that each party has a share between 0 and 1
+generate karacsony_minusz = karacsony - dk - momentum
+regress karacsony_minusz mkkp tisza kispartok if part_total>0, noconstant
 
 * estimate total number of votes by combination of parties and candidates
 collapse (sum) `partok'

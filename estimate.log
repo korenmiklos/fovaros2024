@@ -1,0 +1,339 @@
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      18.0
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2023 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-STATA-PC        https://www.stata.com
+                                   979-696-4600        stata@stata.com
+
+Stata license: Single-user 2-core  perpetual
+Serial number: 501806323834
+  Licensed to: Miklos Koren
+               CEU MicroData
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000 but can be increased;
+          see help set_maxvar.
+
+. do code/estimate.do 
+
+. clear
+
+. use "data/2024/budapest.dta"
+
+. egen szavazokor = group(MAZ TAZ TEVK szavkor)
+
+. 
+. local partok mkkp mihazank tisza lmp fidesz dk momentum 
+
+. local kispartok neppartjan munkaspart szolidaritas 
+
+. local jeloltek karacsony vitezy grundtner ervenytelen 
+
+. 
+. generate total = karacsony + vitezy + grundtner
+
+. generate part_total = mkkp + mihazank + neppartjan + munkaspart + szolidarita
+> s + tisza + lmp + fidesz + dk
+
+. generate kispartok = neppartjan + munkaspart + szolidaritas
+
+. generate fidesz_share = fidesz / part_total
+(833 missing values generated)
+
+. foreach p in `partok' {
+  2.     generate `p'_X_fidesz = `p' * fidesz_share
+  3. }
+(833 missing values generated)
+(833 missing values generated)
+(833 missing values generated)
+(833 missing values generated)
+(833 missing values generated)
+(833 missing values generated)
+(833 missing values generated)
+
+. 
+. foreach jelolt in `jeloltek' {
+  2.     regress `jelolt' `partok' kispartok if part_total>0, noconstant
+  3.     foreach part in `partok' {
+  4.         scalar `jelolt'_`part' = _b[`part']
+  5.         *assert inrange(`jelolt'_`part', 0, 1)
+.     }
+  6.     predict `jelolt'_predict, xb
+  7.     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
+  8.     scatter `jelolt' `jelolt'_predict, msize(tiny)
+  9. 
+.     * evaluate model
+.     summarize ae_`jelolt' if `jelolt'>0 & `jelolt'_predict>0, detail
+ 10.     scalar hiba_`jelolt' = r(p95)
+ 11. }
+
+      Source |       SS           df       MS      Number of obs   =       521
+-------------+----------------------------------   F(8, 513)       =   3728.45
+       Model |  32780487.8         8  4097560.98   Prob > F        =    0.0000
+    Residual |  563786.153       513  1098.99835   R-squared       =    0.9831
+-------------+----------------------------------   Adj R-squared   =    0.9828
+       Total |    33344274       521  64000.5259   Root MSE        =    33.151
+
+------------------------------------------------------------------------------
+   karacsony | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |   .7458423   .0862541     8.65   0.000     .5763876    .9152969
+    mihazank |    .016223   .2137708     0.08   0.940     -.403751    .4361969
+       tisza |   .6862977   .0563781    12.17   0.000     .5755374     .797058
+         lmp |  -.1434341   .1317036    -1.09   0.277    -.4021789    .1153107
+      fidesz |   -.063886    .041593    -1.54   0.125    -.1455996    .0178275
+          dk |   1.095126   .0626393    17.48   0.000     .9720649    1.218187
+    momentum |   1.205999   .1486225     8.11   0.000     .9140156    1.497983
+   kispartok |   .9951538   .2918704     3.41   0.001     .4217456    1.568562
+------------------------------------------------------------------------------
+(522 missing values generated)
+
+                        ae_karacsony
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     .0495601       .0103087
+ 5%     .1461803       .0236833
+10%     .3290513       .0281249       Obs                 515
+25%     .7178916       .0321575       Sum of wgt.         515
+
+50%     1.411693                      Mean           1.751713
+                        Largest       Std. dev.      1.386764
+75%     2.424444       6.731014
+90%     3.616086       6.855183       Variance       1.923115
+95%     4.469197       7.125095       Skewness       1.514715
+99%     5.872011       10.73718       Kurtosis       7.024167
+
+      Source |       SS           df       MS      Number of obs   =       521
+-------------+----------------------------------   F(8, 513)       =   3072.88
+       Model |  33094720.8         8   4136840.1   Prob > F        =    0.0000
+    Residual |  690621.226       513  1346.24021   R-squared       =    0.9796
+-------------+----------------------------------   Adj R-squared   =    0.9792
+       Total |    33785342       521  64847.1056   Root MSE        =    36.691
+
+------------------------------------------------------------------------------
+      vitezy | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |   .1896302   .0954646     1.99   0.048     .0020806    .3771799
+    mihazank |   .3730833   .2365981     1.58   0.115    -.0917371    .8379036
+       tisza |   .3343698   .0623983     5.36   0.000     .2117821    .4569575
+         lmp |   .9161523   .1457674     6.29   0.000     .6297778    1.202527
+      fidesz |   .8285746   .0460345    18.00   0.000     .7381354    .9190139
+          dk |  -.0244079   .0693282    -0.35   0.725    -.1606099    .1117941
+    momentum |   .2257656    .164493     1.37   0.171    -.0973971    .5489283
+   kispartok |   .1412755   .3230374     0.44   0.662    -.4933634    .7759144
+------------------------------------------------------------------------------
+(522 missing values generated)
+
+                          ae_vitezy
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     .0391973       .0005705
+ 5%     .1873347       .0080424
+10%     .2897065       .0145785       Obs                 515
+25%     .6827013       .0157832       Sum of wgt.         515
+
+50%     1.591471                      Mean           1.893055
+                        Largest       Std. dev.      1.584734
+75%       2.7194       6.776807
+90%     3.854105       10.56972       Variance       2.511381
+95%      4.39773       12.35715       Skewness       2.350118
+99%      6.22646       14.61752       Kurtosis       15.26576
+
+      Source |       SS           df       MS      Number of obs   =       521
+-------------+----------------------------------   F(8, 513)       =   1144.04
+       Model |  416960.831         8  52120.1039   Prob > F        =    0.0000
+    Residual |  23371.1689       513  45.5578342   R-squared       =    0.9469
+-------------+----------------------------------   Adj R-squared   =    0.9461
+       Total |      440332       521  845.166987   Root MSE        =    6.7497
+
+------------------------------------------------------------------------------
+   grundtner | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |  -.0746969   .0175615    -4.25   0.000    -.1091982   -.0401955
+    mihazank |   .9092627   .0435243    20.89   0.000      .823755    .9947704
+       tisza |   .0036613   .0114787     0.32   0.750    -.0188898    .0262124
+         lmp |   .0523907   .0268152     1.95   0.051    -.0002904    .1050718
+      fidesz |   .0488684   .0084684     5.77   0.000     .0322313    .0655054
+          dk |   .0112837   .0127535     0.88   0.377    -.0137719    .0363392
+    momentum |   -.051984   .0302599    -1.72   0.086    -.1114326    .0074646
+   kispartok |   .1292188   .0594255     2.17   0.030     .0124715    .2459662
+------------------------------------------------------------------------------
+(522 missing values generated)
+
+                        ae_grundtner
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     .0224333       .0067917
+ 5%     .0822638       .0120836
+10%     .1444317       .0148832       Obs                 515
+25%     .3499215       .0161447       Sum of wgt.         515
+
+50%      .695199                      Mean           .9000319
+                        Largest       Std. dev.      .7760019
+75%      1.23247       4.002357
+90%     1.946964       4.234854       Variance       .6021789
+95%     2.326851        4.83953       Skewness       1.799366
+99%     3.770887       5.469991       Kurtosis        7.88864
+
+      Source |       SS           df       MS      Number of obs   =       521
+-------------+----------------------------------   F(8, 513)       =    340.67
+       Model |  142377.674         8  17797.2093   Prob > F        =    0.0000
+    Residual |  26800.3259       513  52.2423508   R-squared       =    0.8416
+-------------+----------------------------------   Adj R-squared   =    0.8391
+       Total |      169178       521   324.71785   Root MSE        =    7.2279
+
+------------------------------------------------------------------------------
+ ervenytelen | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |   .0437048   .0188058     2.32   0.021     .0067589    .0806507
+    mihazank |   .0548402   .0466081     1.18   0.240     -.036726    .1464063
+       tisza |  -.0191433    .012292    -1.56   0.120    -.0432922    .0050056
+         lmp |  -.0130117   .0287151    -0.45   0.651    -.0694254     .043402
+      fidesz |   .0919576   .0090685    10.14   0.000     .0741417    .1097735
+          dk |   .0304528   .0136571     2.23   0.026      .003622    .0572836
+    momentum |  -.0214202   .0324039    -0.66   0.509    -.0850809    .0422404
+   kispartok |   .1096886    .063636     1.72   0.085    -.0153306    .2347078
+------------------------------------------------------------------------------
+(522 missing values generated)
+
+                       ae_ervenytelen
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     .0164199       .0001258
+ 5%     .0851636       .0008033
+10%     .1698751       .0032065       Obs                 515
+25%       .33878       .0043065       Sum of wgt.         515
+
+50%        .7731                      Mean            1.07859
+                        Largest       Std. dev.      1.403894
+75%     1.314036       8.028005
+90%     2.055162       9.372046       Variance       1.970919
+95%     3.056696       9.933689       Skewness       6.266537
+99%     7.651776       19.44318       Kurtosis        66.7501
+
+. 
+. * manually adjust models so that each party has a share between 0 and 1
+. generate karacsony_minusz = karacsony - dk - momentum
+
+. regress karacsony_minusz mkkp tisza kispartok if part_total>0, noconstant
+
+      Source |       SS           df       MS      Number of obs   =       521
+-------------+----------------------------------   F(3, 518)       =   2888.42
+       Model |   9595199.4         3   3198399.8   Prob > F        =    0.0000
+    Residual |  573590.598       518  1107.31776   R-squared       =    0.9436
+-------------+----------------------------------   Adj R-squared   =    0.9433
+       Total |    10168790       521  19517.8311   Root MSE        =    33.276
+
+------------------------------------------------------------------------------
+karacsony_~z | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |   .7502082   .0768764     9.76   0.000     .5991804    .9012359
+       tisza |   .6648292    .024084    27.60   0.000     .6175148    .7121436
+   kispartok |   .8094671   .2848597     2.84   0.005     .2498449    1.369089
+------------------------------------------------------------------------------
+
+. 
+. * estimate total number of votes by combination of parties and candidates
+. collapse (sum) `partok'
+
+. expand 4
+(3 observations created)
+
+. egen index = seq()
+
+. generate jelolt = "karacsony" if index == 1
+(3 missing values generated)
+
+. replace jelolt = "vitezy" if index == 2
+(1 real change made)
+
+. replace jelolt = "grundtner" if index == 3
+(1 real change made)
+
+. replace jelolt = "ervenytelen" if index == 4
+variable jelolt was str9 now str11
+(1 real change made)
+
+. 
+. foreach part in `partok' {
+  2.     rename `part' `part'_szavazatok
+  3.     generate `part' = 0
+  4.     foreach jelolt in `jeloltek' {
+  5.         replace `part' = `jelolt'_`part' * `part'_szavazatok if jelolt == 
+> "`jelolt'"
+  6.     }
+  7. }
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+
+. 
+. list jelolt `partok'
+
+     +-----------------------------------------------------------------------+
+  1. |      jelolt |      mkkp | mihazank |    tisza |       lmp |    fidesz |
+     |   karacsony |  16132.57 | 176.7656 | 51950.68 | -4020.601 | -5127.366 |
+     |-----------------------------------------------------------------------|
+     |                    dk             |              momentum             |
+     |              48741.87             |              15986.73             |
+     +-----------------------------------------------------------------------+
+
+     +-----------------------------------------------------------------------+
+  2. |      jelolt |      mkkp | mihazank |    tisza |       lmp |    fidesz |
+     |      vitezy |  4101.702 | 4065.115 | 25310.79 |  25680.67 |  66499.74 |
+     |-----------------------------------------------------------------------|
+     |                    dk             |              momentum             |
+     |             -1086.346             |              2992.749             |
+     +-----------------------------------------------------------------------+
+
+     +-----------------------------------------------------------------------+
+  3. |      jelolt |      mkkp | mihazank |    tisza |       lmp |    fidesz |
+     |   grundtner | -1615.693 | 9907.326 | 277.1497 |  1468.564 |  3922.077 |
+     |-----------------------------------------------------------------------|
+     |                    dk             |              momentum             |
+     |              502.2132             |             -689.1002             |
+     +-----------------------------------------------------------------------+
+
+     +-----------------------------------------------------------------------+
+  4. |      jelolt |      mkkp | mihazank |    tisza |       lmp |    fidesz |
+     | ervenytelen |  945.3349 | 597.5383 | -1449.09 |   -364.73 |  7380.333 |
+     |-----------------------------------------------------------------------|
+     |                    dk             |              momentum             |
+     |              1355.395             |             -283.9468             |
+     +-----------------------------------------------------------------------+
+
+. 
+end of do-file
