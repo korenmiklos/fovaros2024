@@ -30,8 +30,19 @@ foreach jelolt in `jeloltek' {
 }
 
 * manually adjust models so that each party has a share between 0 and 1
-generate karacsony_minusz = karacsony - dk - momentum
+local karacsony0 fidesz lmp mihazank
+local karacsony1 dk momentum
+local vitezy0 dk
+local vitezy1 lmp
+
+foreach jelolt in karacsony vitezy {
+    generate `jelolt'_minusz = `jelolt'
+    foreach one in ``jelolt'1' {
+        replace `jelolt'_minusz = `jelolt'_minusz - `one' if `jelolt' > 0
+    } 
+}
 regress karacsony_minusz mkkp tisza kispartok if part_total>0, noconstant
+regress vitezy_minusz mkkp mihazank tisza fidesz kispartok if part_total>0, noconstant
 
 * estimate total number of votes by combination of parties and candidates
 collapse (sum) `partok'
