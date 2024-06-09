@@ -2,12 +2,11 @@ clear
 use "data/2024/budapest.dta"
 egen szavazokor = group(MAZ TAZ TEVK szavkor)
 
-local partok mkkp mihazank tisza lmp fidesz dk momentum kispartok ervenytelen
+local partok mkkp mihazank tisza lmp fidesz dk momentum neppartjan munkaspart szolidaritas ervenytelen
 local jeloltek karacsony vitezy grundtner ervenytelen_fo 
 
 generate total = karacsony + vitezy + grundtner
 generate part_total = mkkp + mihazank + neppartjan + munkaspart + szolidaritas + tisza + lmp + fidesz + dk
-generate kispartok = neppartjan + munkaspart + szolidaritas
 
 local formula 0
 foreach part in `partok' {
@@ -15,7 +14,7 @@ foreach part in `partok' {
 }
 
 foreach jelolt in `jeloltek' {
-    nl (`jelolt' = `formula') if part_total>0, noconstant
+    nl (`jelolt' = `formula') if part_total>0 & `jelolt'>0, noconstant
     foreach part in `partok' {
         scalar `jelolt'_`part' = normal(_b[/`part'])
         *assert inrange(`jelolt'_`part', 0, 1)
@@ -29,20 +28,6 @@ foreach jelolt in `jeloltek' {
     scalar hiba_`jelolt' = r(mean)
 }
 
-* manually adjust models so that each party has a share between 0 and 1
-local karacsony0 fidesz lmp mihazank
-local karacsony1 dk momentum
-local vitezy0 dk
-local vitezy1 lmp
-
-foreach jelolt in karacsony vitezy {
-    generate `jelolt'_minusz = `jelolt'
-    foreach one in ``jelolt'1' {
-        replace `jelolt'_minusz = `jelolt'_minusz - `one' if `jelolt' > 0
-    } 
-}
-regress karacsony_minusz mkkp tisza kispartok if part_total>0, noconstant
-regress vitezy_minusz mkkp mihazank tisza fidesz kispartok if part_total>0, noconstant
 
 * estimate total number of votes by combination of parties and candidates
 collapse (sum) `partok' 
