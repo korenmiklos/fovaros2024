@@ -6,12 +6,13 @@ generate total = karacsony + vitezy + grundtner
 foreach jelolt in `jeloltek' {
     regress `jelolt' `partok', noconstant
     foreach part in `partok' {
+        assert inrange(`jelolt'_`part', 0, 1)
         scalar `jelolt'_`part' = _b[`part']
     }
     predict `jelolt'_predict, xb
     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
-    * evaluate model
 
+    * evaluate model
     summarize ae_`jelolt', detail
     scalar hiba_`jelolt' = r(p95)
 }
