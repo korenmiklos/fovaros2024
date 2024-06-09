@@ -91,9 +91,9 @@ xij variables:
 . tempfile lista
 
 . save "`lista'", replace
-(file /var/folders/3b/07ltjm9n0rq1pwkn1_49vqn40000gn/T//St58113.000001 not
+(file /var/folders/3b/07ltjm9n0rq1pwkn1_49vqn40000gn/T//St80219.000001 not
     found)
-file /var/folders/3b/07ltjm9n0rq1pwkn1_49vqn40000gn/T//St58113.000001 saved
+file /var/folders/3b/07ltjm9n0rq1pwkn1_49vqn40000gn/T//St80219.000001 saved
     as .dta format
 
 . 
@@ -126,6 +126,8 @@ xij variables:
 . rename Vitezy vitezy
 
 . rename Grundtner grundtner
+
+. rename ervenytelen ervenytelen_fo
 
 . 
 . merge 1:1 MAZ TAZ TEVK szavkor using "`lista'",
