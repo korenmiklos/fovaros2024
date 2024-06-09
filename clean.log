@@ -1,0 +1,143 @@
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      18.0
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2023 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-STATA-PC        https://www.stata.com
+                                   979-696-4600        stata@stata.com
+
+Stata license: Single-user 2-core  perpetual
+Serial number: 501806323834
+  Licensed to: Miklos Koren
+               CEU MicroData
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000 but can be increased;
+          see help set_maxvar.
+
+. do code/clean.do 
+
+. clear all
+
+. import delimited "data/2024/budapest_party_list.csv", clear varnames(1) case(
+> preserve) encoding(UTF-8)
+(8 vars, 14,894 obs)
+
+. 
+. generate lista = "mkkp" if Lista == "MKKP"
+(13,540 missing values generated)
+
+. replace lista = "mihazank" if Lista == "Mi Hazank"
+variable lista was str4 now str8
+(1,354 real changes made)
+
+. replace lista = "neppartjan" if Lista == "Nep Partjan"
+variable lista was str8 now str10
+(1,354 real changes made)
+
+. replace lista = "munkaspart" if Lista == "Munkaspart"
+(1,354 real changes made)
+
+. replace lista = "szolidaritas" if Lista == "Szolidaritas"
+variable lista was str10 now str12
+(1,354 real changes made)
+
+. replace lista = "tisza" if Lista == "TISZA"
+(1,354 real changes made)
+
+. replace lista = "lmp" if Lista == "Vitezy-LMP"
+(1,354 real changes made)
+
+. replace lista = "fidesz" if Lista == "FIDESZ"
+(1,354 real changes made)
+
+. replace lista = "dk" if Lista == "DK-MSZP-PARBESZED"
+(1,354 real changes made)
+
+. replace lista = "momentum" if Lista == "MOMENTUM"
+(1,354 real changes made)
+
+. replace lista = "ervenytelen" if Lista == "ervenytelen"
+(1,354 real changes made)
+
+. 
+. drop Lista
+
+. 
+. reshape wide Szavazat, i(MAZ TAZ TEVK szavkor) j(lista) string
+(j = dk ervenytelen fidesz lmp mihazank mkkp momentum munkaspart neppartjan szo
+> lidaritas tisza)
+
+Data                               Long   ->   Wide
+-----------------------------------------------------------------------------
+Number of observations           14,894   ->   1,354       
+Number of variables                   8   ->   17          
+j variable (11 values)            lista   ->   (dropped)
+xij variables:
+                               Szavazat   ->   Szavazatdk Szavazatervenytelen .
+> .. Szavazattisza
+-----------------------------------------------------------------------------
+
+. rename Szavazat* *
+
+. 
+. tempfile lista
+
+. save "`lista'", replace
+(file /var/folders/3b/07ltjm9n0rq1pwkn1_49vqn40000gn/T//St58113.000001 not
+    found)
+file /var/folders/3b/07ltjm9n0rq1pwkn1_49vqn40000gn/T//St58113.000001 saved
+    as .dta format
+
+. 
+. import delimited "data/2024/fopolgarmester.csv", clear varnames(1) case(prese
+> rve) encoding(UTF-8)
+(8 vars, 6,770 obs)
+
+. * Szentkiralyi dropped out
+. drop if Jelolt == "Szentkiralyi"
+(1,354 observations deleted)
+
+. reshape wide Szavazat, i(MAZ TAZ TEVK szavkor) j(Jelolt) string
+(j = Grundtner Karacsony Vitezy ervenytelen)
+
+Data                               Long   ->   Wide
+-----------------------------------------------------------------------------
+Number of observations            5,416   ->   1,354       
+Number of variables                   8   ->   10          
+j variable (4 values)            Jelolt   ->   (dropped)
+xij variables:
+                               Szavazat   ->   SzavazatGrundtner SzavazatKaracs
+> ony ... Szavazatervenytelen
+-----------------------------------------------------------------------------
+
+. rename Szavazat* *
+
+. 
+. rename Karacsony karacsony
+
+. rename Vitezy vitezy
+
+. rename Grundtner grundtner
+
+. 
+. merge 1:1 MAZ TAZ TEVK szavkor using "`lista'",
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             1,354  (_merge==3)
+    -----------------------------------------
+
+. save "data/2024/budapest.dta", replace
+file data/2024/budapest.dta saved
+
+. 
+end of do-file
