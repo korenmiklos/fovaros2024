@@ -16,5 +16,7 @@ for ker in data:
                 continue
             for y in x['tetelek']:
                 dt.append({"Valasztas":"Fopolgarmester","MAZ":ker['data']['maz'],"TAZ":ker['data']['taz'],"Telepules":ker['data']['telnev'],"TEVK":tevk,"Jelolt":jelolt[y['szavlap_sorsz']],'Szavazat':y['szavazat'],'szavkor':x['sorsz']})
+            dt.append({"Valasztas":"Fopolgarmester","MAZ":ker['data']['maz'],"TAZ":ker['data']['taz'],"Telepules":ker['data']['telnev'],"TEVK":tevk,"Jelolt":'ervenytelen','Szavazat':x['szl_ervenytelen'],'szavkor':x['sorsz']})
+            
 
 pd.DataFrame(dt).to_csv('data/2024/fopolgarmester.csv', index=False)
