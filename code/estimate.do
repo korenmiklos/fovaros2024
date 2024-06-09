@@ -9,24 +9,25 @@ local jeloltek karacsony vitezy grundtner ervenytelen
 generate total = karacsony + vitezy + grundtner
 generate part_total = mkkp + mihazank + neppartjan + munkaspart + szolidaritas + tisza + lmp + fidesz + dk
 generate kispartok = neppartjan + munkaspart + szolidaritas
-generate fidesz_share = fidesz / part_total
-foreach p in `partok' {
-    generate `p'_X_fidesz = `p' * fidesz_share
+
+local formula 0
+foreach part in `partok' kispartok {
+    local formula `formula' + normal({`part'})*`part'
 }
 
 foreach jelolt in `jeloltek' {
-    regress `jelolt' `partok' kispartok if part_total>0, noconstant
+    nl (`jelolt' = `formula') if part_total>0, noconstant
     foreach part in `partok' {
-        scalar `jelolt'_`part' = _b[`part']
+        scalar `jelolt'_`part' = normal(_b[/`part'])
         *assert inrange(`jelolt'_`part', 0, 1)
     }
-    predict `jelolt'_predict, xb
+    predict `jelolt'_predict
     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
     scatter `jelolt' `jelolt'_predict, msize(tiny)
 
     * evaluate model
     summarize ae_`jelolt' if `jelolt'>0 & `jelolt'_predict>0, detail
-    scalar hiba_`jelolt' = r(p95)
+    scalar hiba_`jelolt' = r(mean)
 }
 
 * manually adjust models so that each party has a share between 0 and 1
