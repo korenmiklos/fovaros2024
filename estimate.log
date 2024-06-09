@@ -66,203 +66,216 @@ Notes:
  10.     scalar hiba_`jelolt' = r(mean)
  11. }
 
-Iteration 0:  Residual SS = 785085.9
-Iteration 1:  Residual SS = 700799.6
-Iteration 2:  Residual SS = 680701.5
-Iteration 3:  Residual SS = 578833.7
-Iteration 4:  Residual SS = 578831.6
-Iteration 5:  Residual SS = 578831.5
-Iteration 6:  Residual SS = 578831.5
-Iteration 7:  Residual SS = 569660.4
-Iteration 8:  Residual SS = 567916.2
-Iteration 9:  Residual SS =   567916
-Iteration 10: Residual SS =   567916
+Iteration 0:  Residual SS =  1328812
+Iteration 1:  Residual SS =  1235918
+Iteration 2:  Residual SS =  1222553
+Iteration 3:  Residual SS =  1097589
+Iteration 4:  Residual SS =  1095736
+Iteration 5:  Residual SS =  1095244
+Iteration 6:  Residual SS =  1095197
+Iteration 7:  Residual SS =  1095197
+Iteration 8:  Residual SS =  1095197
+Iteration 9:  Residual SS =  1095197
+Iteration 10: Residual SS =  1095197
+Iteration 11: Residual SS =  1095017
+Iteration 12: Residual SS =  1095007
+Iteration 13: Residual SS =  1095007
 
 
       Source |      SS            df       MS
--------------+----------------------------------    Number of obs =        667
-       Model |   44383500          4    11095875    R-squared     =     0.9874
-    Residual |  567915.97        663  856.585177    Adj R-squared =     0.9873
--------------+----------------------------------    Root MSE      =   29.26748
-       Total |   44951416        667  67393.4273    Res. dev.     =   6393.072
+-------------+----------------------------------    Number of obs =        826
+       Model |   57368414          4  14342103.4    R-squared     =     0.9813
+    Residual |  1095007.4        822  1332.12575    Adj R-squared =     0.9812
+-------------+----------------------------------    Root MSE      =    36.4983
+       Total |   58463421        826    70778.96    Res. dev.     =    8282.76
 
 ------------------------------------------------------------------------------
    karacsony | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 -------------+----------------------------------------------------------------
-       /mkkp |   .5784532    .174151     3.32   0.001     .2364992    .9204071
-   /mihazank |   -64.1281          .        .       .            .           .
-      /tisza |   .5128606   .0893205     5.74   0.000     .3374755    .6882457
-        /lmp |  -11958.75          .        .       .            .           .
-     /fidesz |  -1.84e+08          .        .       .            .           .
-         /dk |   2.219923   1.349804     1.64   0.101    -.4304834    4.870329
-   /momentum |    9.13465          .        .       .            .           .
-  /kispartok |   .5242378   .2528028     2.07   0.038     .0278472    1.020628
+       /mkkp |   1.025015   .2785161     3.68   0.000     .4783286    1.571701
+   /mihazank |  -182.4223          .        .       .            .           .
+      /tisza |   .3881063   .0917073     4.23   0.000     .2080982    .5681144
+        /lmp |  -213401.8          .        .       .            .           .
+     /fidesz |  -408507.6          .        .       .            .           .
+         /dk |   2.104939   1.135131     1.85   0.064    -.1231569    4.333034
+   /momentum |   11.18164          .        .       .            .           .
+  /kispartok |   .5515535   .3176201     1.74   0.083    -.0718885    1.174996
 ------------------------------------------------------------------------------
 (option yhat assumed; fitted values)
-(377 missing values generated)
+(276 missing values generated)
 
                         ae_karacsony
 -------------------------------------------------------------
       Percentiles      Smallest
- 1%      .024598       .0005222
- 5%     .1128513       .0007909
-10%     .2343433       .0145497       Obs                 661
-25%     .6201384       .0159356       Sum of wgt.         661
+ 1%     .0277907        .000918
+ 5%     .1086283        .005534
+10%     .2277739       .0071843       Obs                 816
+25%     .5941271       .0144944       Sum of wgt.         816
 
-50%     1.256149                      Mean           1.619374
-                        Largest       Std. dev.      1.495688
-75%      2.19506       7.230374
-90%     3.360038       8.724539       Variance       2.237083
-95%     4.291172        10.0745       Skewness        3.23857
-99%     6.635334       18.11153       Kurtosis       27.36028
+50%     1.356517                      Mean           1.670009
+                        Largest       Std. dev.      1.473874
+75%     2.283334       8.044083
+90%     3.408149       8.726593       Variance       2.172305
+95%     4.267371       8.845146       Skewness       2.689983
+99%     6.633598       17.49395       Kurtosis       20.93917
 
-Iteration 0:  Residual SS = 605028.9
-Iteration 1:  Residual SS = 602097.7
-Iteration 2:  Residual SS =   600953
-Iteration 3:  Residual SS = 600949.2
-Iteration 4:  Residual SS = 600949.2
-Iteration 5:  Residual SS = 600949.2
-Iteration 6:  Residual SS =   571360
-Iteration 7:  Residual SS = 571359.2
-Iteration 8:  Residual SS = 571359.2
-Iteration 9:  Residual SS = 571359.2
+Iteration 0:  Residual SS =  1076193
+Iteration 1:  Residual SS =  1068112
+Iteration 2:  Residual SS =  1065658
+Iteration 3:  Residual SS =  1065209
+Iteration 4:  Residual SS =  1065078
+Iteration 5:  Residual SS =  1065065
+Iteration 6:  Residual SS =  1065063
+Iteration 7:  Residual SS =  1065062
+Iteration 8:  Residual SS =  1065062
+Iteration 9:  Residual SS =  1065062
+Iteration 10: Residual SS =  1065062
+Iteration 11: Residual SS =  1065062
+Iteration 12: Residual SS =  1065062
+Iteration 13: Residual SS =  1065062
+Iteration 14: Residual SS =  1046334
+Iteration 15: Residual SS =  1044609
+Iteration 16: Residual SS =  1044609
+Iteration 17: Residual SS =  1044609
 
 
       Source |      SS            df       MS
--------------+----------------------------------    Number of obs =        667
-       Model |   44379353          7  6339907.54    R-squared     =     0.9873
-    Residual |  571359.24        660  865.695814    Adj R-squared =     0.9872
--------------+----------------------------------    Root MSE      =   29.42271
-       Total |   44950712        667  67392.3718    Res. dev.     =   6397.104
+-------------+----------------------------------    Number of obs =        826
+       Model |   56839142          7  8119877.43    R-squared     =     0.9820
+    Residual |    1044609        819  1275.46883    Adj R-squared =     0.9818
+-------------+----------------------------------    Root MSE      =   35.71371
+       Total |   57883751        826  70077.1804    Res. dev.     =    8243.84
 
 ------------------------------------------------------------------------------
       vitezy | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 -------------+----------------------------------------------------------------
-       /mkkp |  -.9756954   .2688753    -3.63   0.000     -1.50365   -.4477412
-   /mihazank |  -1.388763   1.085879    -1.28   0.201    -3.520957    .7434316
-      /tisza |  -.4088941   .1071827    -3.81   0.000    -.6193543   -.1984339
-        /lmp |   1.276385   .5817304     2.19   0.029     .1341196     2.41865
-     /fidesz |   1.261622   .1840899     6.85   0.000     .9001492    1.623094
-         /dk |  -13.23339          .        .       .            .           .
-   /momentum |  -1.357293   .6916423    -1.96   0.050    -2.715377    .0007916
-  /kispartok |  -.5475822    .266062    -2.06   0.040    -1.070012   -.0251521
+       /mkkp |  -.6613059   .2270051    -2.91   0.004    -1.106886   -.2157256
+   /mihazank |  -1.187374   .8937065    -1.33   0.184    -2.941599    .5668508
+      /tisza |  -.6426414   .1267522    -5.07   0.000    -.8914389    -.393844
+        /lmp |   1.247543   .5940257     2.10   0.036     .0815513    2.413536
+     /fidesz |   1.422053   .2475056     5.75   0.000     .9362328    1.907873
+         /dk |  -1.97e+08          .        .       .            .           .
+   /momentum |  -.9126565   .4327392    -2.11   0.035    -1.762065   -.0632479
+  /kispartok |   -.570243    .322381    -1.77   0.077    -1.203033    .0625474
 ------------------------------------------------------------------------------
 (option yhat assumed; fitted values)
-(377 missing values generated)
+(276 missing values generated)
 
                           ae_vitezy
 -------------------------------------------------------------
       Percentiles      Smallest
- 1%     .0118981       .0022792
- 5%     .1651704         .00235
-10%     .3116255       .0059016       Obs                 661
-25%     .7523199       .0075391       Sum of wgt.         661
+ 1%     .0414281       .0054486
+ 5%     .1471764       .0135252
+10%     .2863844       .0205877       Obs                 816
+25%     .7388124       .0211467       Sum of wgt.         816
 
-50%     1.449317                      Mean           1.815594
-                        Largest       Std. dev.      1.615331
-75%     2.505289         12.142
-90%     3.517399       12.88453       Variance       2.609295
-95%     4.257115       13.34355       Skewness       3.427154
-99%     6.510195       18.15808       Kurtosis       27.25697
+50%     1.539586                      Mean           1.854715
+                        Largest       Std. dev.      1.610249
+75%     2.575942       7.030372
+90%     3.700512       12.13309       Variance       2.592902
+95%     4.481741       14.94092       Skewness        3.34574
+99%     6.579386       20.21601       Kurtosis       30.10755
 
-Iteration 0:  Residual SS =  1764839
-Iteration 1:  Residual SS = 206276.2
-Iteration 2:  Residual SS = 68022.61
-Iteration 3:  Residual SS = 40444.37
-Iteration 4:  Residual SS = 31988.06
-Iteration 5:  Residual SS = 31665.02
-Iteration 6:  Residual SS = 31455.08
-Iteration 7:  Residual SS = 30122.12
-Iteration 8:  Residual SS = 30112.54
-Iteration 9:  Residual SS = 30112.54
-Iteration 10: Residual SS = 30112.54
+Iteration 0:  Residual SS =  2298683
+Iteration 1:  Residual SS = 262604.8
+Iteration 2:  Residual SS = 81823.56
+Iteration 3:  Residual SS = 60109.41
+Iteration 4:  Residual SS = 44720.24
+Iteration 5:  Residual SS = 43959.49
+Iteration 6:  Residual SS = 43943.34
+Iteration 7:  Residual SS = 42910.11
+Iteration 8:  Residual SS = 42709.08
+Iteration 9:  Residual SS = 42708.04
+Iteration 10: Residual SS = 42708.04
+Iteration 11: Residual SS = 42708.04
 
 
       Source |      SS            df       MS
--------------+----------------------------------    Number of obs =        667
-       Model |  538347.46          4  134586.865    R-squared     =     0.9470
-    Residual |  30112.541        663  45.4186136    Adj R-squared =     0.9467
--------------+----------------------------------    Root MSE      =   6.739333
-       Total |     568460        667  852.263868    Res. dev.     =   4434.072
+-------------+----------------------------------    Number of obs =        826
+       Model |  685093.96          4  171273.491    R-squared     =     0.9413
+    Residual |  42708.037        822  51.9562492    Adj R-squared =     0.9410
+-------------+----------------------------------    Root MSE      =   7.208068
+       Total |     727802        826  881.116223    Res. dev.     =   5603.109
 
 ------------------------------------------------------------------------------
    grundtner | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 -------------+----------------------------------------------------------------
-       /mkkp |  -8.271684          .        .       .            .           .
-   /mihazank |   1.725507   .4026033     4.29   0.000     .9349755    2.516038
-      /tisza |  -42404.98          .        .       .            .           .
-        /lmp |  -1.804665   .2357608    -7.65   0.000    -2.267593   -1.341738
-     /fidesz |  -1.864622   .0990495   -18.83   0.000    -2.059111   -1.670134
-         /dk |  -7.824706          .        .       .            .           .
-   /momentum |  -396855.8          .        .       .            .           .
-  /kispartok |  -1.990742   .3671581    -5.42   0.000    -2.711674   -1.269809
+       /mkkp |  -2.92e+08          .        .       .            .           .
+   /mihazank |   1.781745   .4201678     4.24   0.000      .957017    2.606473
+      /tisza |  -13802.27          .        .       .            .           .
+        /lmp |  -2.154653   .4434055    -4.86   0.000    -3.024993   -1.284313
+     /fidesz |  -1.797575    .083124   -21.63   0.000    -1.960736   -1.634415
+         /dk |  -221.9143          .        .       .            .           .
+   /momentum |  -58.85804          .        .       .            .           .
+  /kispartok |  -1.866933   .3074962    -6.07   0.000    -2.470503   -1.263363
 ------------------------------------------------------------------------------
 (option yhat assumed; fitted values)
-(377 missing values generated)
+(276 missing values generated)
 
                         ae_grundtner
 -------------------------------------------------------------
       Percentiles      Smallest
- 1%     .0197335       .0002245
- 5%     .0957489       .0004653
-10%     .1710733        .009385       Obs                 661
-25%     .4360445       .0100276       Sum of wgt.         661
+ 1%     .0372871       .0060444
+ 5%     .0902086       .0064879
+10%     .1602904       .0075504       Obs                 816
+25%      .426176       .0083192       Sum of wgt.         816
 
-50%     .7625342                      Mean           .9747023
-                        Largest       Std. dev.      .8097565
-75%     1.330294       4.530639
-90%     1.974115       5.578021       Variance       .6557057
-95%     2.498276       5.663827       Skewness       1.956255
-99%     3.818096       6.040345       Kurtosis       9.356676
+50%     .7775008                      Mean           .9751411
+                        Largest       Std. dev.       .788911
+75%     1.346289       4.593414
+90%     2.006463       5.509173       Variance       .6223805
+95%     2.457363       5.552607       Skewness       1.765266
+99%     3.699076       5.826243       Kurtosis       8.322189
 
-Iteration 0:  Residual SS =  1738050
-Iteration 1:  Residual SS = 182375.7
-Iteration 2:  Residual SS = 62945.74
-Iteration 3:  Residual SS =  54266.6
-Iteration 4:  Residual SS = 46201.62
-Iteration 5:  Residual SS = 37115.03
-Iteration 6:  Residual SS = 36890.88
-Iteration 7:  Residual SS = 36887.35
-Iteration 8:  Residual SS = 36887.35
-Iteration 9:  Residual SS = 36887.35
+Iteration 0:  Residual SS =  2258796
+Iteration 1:  Residual SS = 230680.6
+Iteration 2:  Residual SS = 74588.55
+Iteration 3:  Residual SS = 61132.95
+Iteration 4:  Residual SS = 55247.14
+Iteration 5:  Residual SS =  47839.2
+Iteration 6:  Residual SS = 47643.75
+Iteration 7:  Residual SS = 47632.77
+Iteration 8:  Residual SS = 47632.33
+Iteration 9:  Residual SS = 47632.33
+Iteration 10: Residual SS = 47632.33
 
 
       Source |      SS            df       MS
--------------+----------------------------------    Number of obs =        667
-       Model |  189437.65          5  37887.5305    R-squared     =     0.8370
-    Residual |  36887.348        662  55.7210689    Adj R-squared =     0.8358
--------------+----------------------------------    Root MSE      =   7.464655
-       Total |     226325        667  339.317841    Res. dev.     =   4569.424
+-------------+----------------------------------    Number of obs =        826
+       Model |  240880.67          5  48176.1342    R-squared     =     0.8349
+    Residual |  47632.329        821  58.0174529    Adj R-squared =     0.8339
+-------------+----------------------------------    Root MSE      =   7.616919
+       Total |     288513        826  349.289346    Res. dev.     =   5693.246
 
 ------------------------------------------------------------------------------
  ervenytelen | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 -------------+----------------------------------------------------------------
-       /mkkp |  -1.812932   .1950192    -9.30   0.000    -2.195863   -1.430002
-   /mihazank |  -1.558689   .3418605    -4.56   0.000    -2.229951   -.8874275
-      /tisza |  -433.1845          .        .       .            .           .
-        /lmp |  -26.89344          .        .       .            .           .
-     /fidesz |  -1.383482   .0484464   -28.56   0.000    -1.478609   -1.288355
-         /dk |  -2.469845   .5163712    -4.78   0.000    -3.483768   -1.455922
-   /momentum |  -13.26363          .        .       .            .           .
-  /kispartok |  -2.168569   .5879154    -3.69   0.000    -3.322973   -1.014166
+       /mkkp |  -1.747325   .1596985   -10.94   0.000    -2.060791    -1.43386
+   /mihazank |   -1.56113    .308521    -5.06   0.000    -2.166713   -.9555475
+      /tisza |  -27.84026          .        .       .            .           .
+        /lmp |  -15.76982          .        .       .            .           .
+     /fidesz |  -1.377137   .0438329   -31.42   0.000    -1.463174   -1.291099
+         /dk |  -3.033954   2.185245    -1.39   0.165    -7.323279    1.255371
+   /momentum |  -158.2233          .        .       .            .           .
+  /kispartok |  -2.041833   .4569279    -4.47   0.000    -2.938717   -1.144948
 ------------------------------------------------------------------------------
 (option yhat assumed; fitted values)
-(377 missing values generated)
+(276 missing values generated)
 
                        ae_ervenytelen
 -------------------------------------------------------------
       Percentiles      Smallest
- 1%     .0162057       .0013737
- 5%     .0684165       .0020836
-10%     .1408181       .0020878       Obs                 661
-25%     .3687702       .0033322       Sum of wgt.         661
+ 1%     .0173359       .0021755
+ 5%     .0697916        .005121
+10%     .1498033       .0121725       Obs                 816
+25%     .3638846       .0123792       Sum of wgt.         816
 
-50%     .8014862                      Mean           1.094754
-                        Largest       Std. dev.      1.374032
-75%     1.373758       8.275206
-90%     2.085968        9.57856       Variance       1.887964
-95%     3.020049       10.28048       Skewness       6.069912
-99%     6.393674       20.19979       Kurtosis       66.86875
+50%     .7834132                      Mean           1.073601
+                        Largest       Std. dev.      1.300642
+75%      1.37581       8.228179
+90%     2.109585       9.555181       Variance        1.69167
+95%      2.83998       10.25726       Skewness       5.941629
+99%     5.552173       20.18062       Kurtosis       67.89859
 
 . 
 . * manually adjust models so that each party has a share between 0 and 1
@@ -281,45 +294,45 @@ Iteration 9:  Residual SS = 36887.35
   4.         replace `jelolt'_minusz = `jelolt'_minusz - `one' if `jelolt' > 0
   5.     } 
   6. }
-(660 real changes made)
-(661 real changes made)
-(661 real changes made)
+(815 real changes made)
+(816 real changes made)
+(816 real changes made)
 
 . regress karacsony_minusz mkkp tisza kispartok if part_total>0, noconstant
 
-      Source |       SS           df       MS      Number of obs   =       667
--------------+----------------------------------   F(3, 664)       =  13165.77
-       Model |  13278992.3         3  4426330.77   Prob > F        =    0.0000
-    Residual |  223236.692       664  336.199837   R-squared       =    0.9835
--------------+----------------------------------   Adj R-squared   =    0.9834
-       Total |    13502229       667  20243.2219   Root MSE        =    18.336
+      Source |       SS           df       MS      Number of obs   =       826
+-------------+----------------------------------   F(3, 823)       =  12031.14
+       Model |  17015157.5         3  5671719.16   Prob > F        =    0.0000
+    Residual |  387978.509       823  471.419817   R-squared       =    0.9777
+-------------+----------------------------------   Adj R-squared   =    0.9776
+       Total |    17403136       826  21069.1719   Root MSE        =    21.712
 
 ------------------------------------------------------------------------------
 karacsony_~z | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 -------------+----------------------------------------------------------------
-        mkkp |   .7559429   .0367543    20.57   0.000     .6837743    .8281115
-       tisza |   .6857602    .011168    61.40   0.000     .6638313    .7076891
-   kispartok |   .6902322   .0546339    12.63   0.000     .5829561    .7975082
+        mkkp |   .8177583   .0390042    20.97   0.000     .7411988    .8943177
+       tisza |   .6625654   .0116716    56.77   0.000     .6396558    .6854751
+   kispartok |    .692023   .0642935    10.76   0.000     .5658244    .8182215
 ------------------------------------------------------------------------------
 
 . regress vitezy_minusz mkkp mihazank tisza fidesz kispartok if part_total>0, n
 > oconstant
 
-      Source |       SS           df       MS      Number of obs   =       667
--------------+----------------------------------   F(5, 662)       =   9578.66
-       Model |  27440830.2         5  5488166.04   Prob > F        =    0.0000
-    Residual |  379297.822       662  572.957434   R-squared       =    0.9864
--------------+----------------------------------   Adj R-squared   =    0.9863
-       Total |    27820128       667  41709.3373   Root MSE        =    23.937
+      Source |       SS           df       MS      Number of obs   =       826
+-------------+----------------------------------   F(5, 821)       =   8706.33
+       Model |  35065904.8         5  7013180.96   Prob > F        =    0.0000
+    Residual |  661337.222       821  805.526458   R-squared       =    0.9815
+-------------+----------------------------------   Adj R-squared   =    0.9814
+       Total |    35727242       826  43253.3196   Root MSE        =    28.382
 
 ------------------------------------------------------------------------------
 vitezy_min~z | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 -------------+----------------------------------------------------------------
-        mkkp |   .1966353   .0504124     3.90   0.000     .0976478    .2956228
-    mihazank |   .0513276   .1313324     0.39   0.696    -.2065507    .3092059
-       tisza |   .3244081   .0254982    12.72   0.000      .274341    .3744752
-      fidesz |   .8915105   .0256458    34.76   0.000     .8411535    .9418674
-   kispartok |   .2764428   .0727479     3.80   0.000     .1335985    .4192872
+        mkkp |   .2803054    .053718     5.22   0.000     .1748647    .3857461
+    mihazank |   .0677061   .1364644     0.50   0.620    -.2001541    .3355662
+       tisza |   .2679395   .0259805    10.31   0.000     .2169436    .3189355
+      fidesz |   .9141854   .0270577    33.79   0.000      .861075    .9672957
+   kispartok |   .2727918   .0854718     3.19   0.001     .1050229    .4405608
 ------------------------------------------------------------------------------
 
 . 
@@ -356,9 +369,9 @@ variable jelolt was str9 now str11
   8. }
 (1 real change made)
 (1 real change made)
+(0 real changes made)
 (1 real change made)
-(1 real change made)
-(4 real changes made)
+(3 real changes made)
 (0 real changes made)
 (1 real change made)
 (1 real change made)
@@ -380,15 +393,15 @@ variable jelolt was str9 now str11
 (1 real change made)
 (3 real changes made)
 (1 real change made)
-(1 real change made)
-(1 real change made)
-(1 real change made)
-(4 real changes made)
-(1 real change made)
-(1 real change made)
+(0 real changes made)
 (0 real changes made)
 (1 real change made)
 (2 real changes made)
+(1 real change made)
+(1 real change made)
+(0 real changes made)
+(0 real changes made)
+(1 real change made)
 (1 real change made)
 (1 real change made)
 (1 real change made)
@@ -399,7 +412,6 @@ variable jelolt was str9 now str11
 . keep jelolt `partok' 
 
 . export delimited "data/2024/budapest_becsles.csv", replace
-(file data/2024/budapest_becsles.csv not found)
 file data/2024/budapest_becsles.csv saved
 
 . 
