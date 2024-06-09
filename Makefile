@@ -1,4 +1,4 @@
-estimate.log: code/estimate.do data/2024/budapest.dta
+data/2024/budapest_becsles.csv: code/estimate.do data/2024/budapest.dta
 	stata -b do $<
 data/2024/budapest.dta: code/clean.do data/2024/budapest_party_list.csv data/2024/fopolgarmester.csv
 	stata -b do $<

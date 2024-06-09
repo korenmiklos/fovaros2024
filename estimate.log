@@ -31,9 +31,7 @@ Notes:
 . egen szavazokor = group(MAZ TAZ TEVK szavkor)
 
 . 
-. local partok mkkp mihazank tisza lmp fidesz dk momentum 
-
-. local kispartok neppartjan munkaspart szolidaritas 
+. local partok mkkp mihazank tisza lmp fidesz dk momentum kispartok
 
 . local jeloltek karacsony vitezy grundtner ervenytelen 
 
@@ -48,7 +46,7 @@ Notes:
 . 
 . local formula 0
 
-. foreach part in `partok' kispartok {
+. foreach part in `partok' {
   2.     local formula `formula' + normal({`part'})*`part'
   3. }
 
@@ -326,7 +324,7 @@ vitezy_min~z | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 
 . 
 . * estimate total number of votes by combination of parties and candidates
-. collapse (sum) `partok'
+. collapse (sum) `partok' 
 
 . expand 4
 (3 observations created)
@@ -347,77 +345,62 @@ variable jelolt was str9 now str11
 (1 real change made)
 
 . 
-. foreach part in `partok' {
+. foreach part in `partok'  {
   2.     rename `part' `part'_szavazatok
   3.     generate `part' = 0
   4.     foreach jelolt in `jeloltek' {
   5.         replace `part' = `jelolt'_`part' * `part'_szavazatok if jelolt == 
 > "`jelolt'"
   6.     }
-  7. }
+  7.     replace `part' = round(`part')
+  8. }
 (1 real change made)
 (1 real change made)
 (1 real change made)
 (1 real change made)
+(4 real changes made)
 (0 real changes made)
 (1 real change made)
 (1 real change made)
 (1 real change made)
+(3 real changes made)
 (1 real change made)
 (1 real change made)
 (0 real changes made)
 (0 real changes made)
+(2 real changes made)
 (0 real changes made)
 (1 real change made)
 (1 real change made)
 (0 real changes made)
+(2 real changes made)
 (0 real changes made)
 (1 real change made)
 (1 real change made)
 (1 real change made)
+(3 real changes made)
 (1 real change made)
 (1 real change made)
 (1 real change made)
 (1 real change made)
+(4 real changes made)
 (1 real change made)
 (1 real change made)
 (0 real changes made)
 (1 real change made)
+(2 real changes made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(1 real change made)
+(4 real changes made)
 
 . 
-. list jelolt `partok'
+. keep jelolt `partok' 
 
-     +--------------------------------------------------------------------+
-  1. |      jelolt |     mkkp | mihazank |    tisza |      lmp |   fidesz |
-     |   karacsony | 20418.21 |        0 | 68245.98 |        0 |        0 |
-     |--------------------------------------------------------------------|
-     |                  dk             |             momentum             |
-     |            58031.03             |                17248             |
-     +--------------------------------------------------------------------+
-
-     +--------------------------------------------------------------------+
-  2. |      jelolt |     mkkp | mihazank |    tisza |      lmp |   fidesz |
-     |      vitezy | 4677.658 | 1159.034 | 33468.05 | 32655.86 | 93306.88 |
-     |--------------------------------------------------------------------|
-     |                  dk             |             momentum             |
-     |            1.66e-35             |             1506.511             |
-     +--------------------------------------------------------------------+
-
-     +--------------------------------------------------------------------+
-  3. |      jelolt |     mkkp | mihazank |    tisza |      lmp |   fidesz |
-     |   grundtner | 1.88e-12 | 13463.54 |        0 | 1291.703 | 3238.801 |
-     |--------------------------------------------------------------------|
-     |                  dk             |             momentum             |
-     |            1.50e-10             |                    0             |
-     +--------------------------------------------------------------------+
-
-     +--------------------------------------------------------------------+
-  4. |      jelolt |     mkkp | mihazank |    tisza |      lmp |   fidesz |
-     | ervenytelen | 992.3537 | 836.8835 |        0 |        0 |  8665.89 |
-     |--------------------------------------------------------------------|
-     |                  dk             |             momentum             |
-     |            397.4587             |             3.24e-36             |
-     +--------------------------------------------------------------------+
+. export delimited "data/2024/budapest_becsles.csv", replace
+(file data/2024/budapest_becsles.csv not found)
+file data/2024/budapest_becsles.csv saved
 
 . 
 end of do-file

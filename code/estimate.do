@@ -2,8 +2,7 @@ clear
 use "data/2024/budapest.dta"
 egen szavazokor = group(MAZ TAZ TEVK szavkor)
 
-local partok mkkp mihazank tisza lmp fidesz dk momentum 
-local kispartok neppartjan munkaspart szolidaritas 
+local partok mkkp mihazank tisza lmp fidesz dk momentum kispartok
 local jeloltek karacsony vitezy grundtner ervenytelen 
 
 generate total = karacsony + vitezy + grundtner
@@ -11,7 +10,7 @@ generate part_total = mkkp + mihazank + neppartjan + munkaspart + szolidaritas +
 generate kispartok = neppartjan + munkaspart + szolidaritas
 
 local formula 0
-foreach part in `partok' kispartok {
+foreach part in `partok' {
     local formula `formula' + normal({`part'})*`part'
 }
 
@@ -46,7 +45,7 @@ regress karacsony_minusz mkkp tisza kispartok if part_total>0, noconstant
 regress vitezy_minusz mkkp mihazank tisza fidesz kispartok if part_total>0, noconstant
 
 * estimate total number of votes by combination of parties and candidates
-collapse (sum) `partok'
+collapse (sum) `partok' 
 expand 4
 egen index = seq()
 generate jelolt = "karacsony" if index == 1
@@ -54,12 +53,14 @@ replace jelolt = "vitezy" if index == 2
 replace jelolt = "grundtner" if index == 3
 replace jelolt = "ervenytelen" if index == 4
 
-foreach part in `partok' {
+foreach part in `partok'  {
     rename `part' `part'_szavazatok
     generate `part' = 0
     foreach jelolt in `jeloltek' {
         replace `part' = `jelolt'_`part' * `part'_szavazatok if jelolt == "`jelolt'"
     }
+    replace `part' = round(`part')
 }
 
-list jelolt `partok'
+keep jelolt `partok' 
+export delimited "data/2024/budapest_becsles.csv", replace
