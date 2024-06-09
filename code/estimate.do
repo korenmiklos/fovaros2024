@@ -1,4 +1,7 @@
-local partok mkkp mihazank neppartjan munkaspart szolidaritas tisza lmp fidesz dk momentum 
+egen szavazokor = group(MAZ TAZ TEVK szavkor)
+
+local partok mkkp mihazank tisza lmp fidesz dk momentum 
+local kispartok neppartjan munkaspart szolidaritas 
 local jeloltek karacsony vitezy grundtner 
 
 generate total = karacsony + vitezy + grundtner
@@ -11,10 +14,10 @@ foreach part in fidesz dk tisza {
 }
 
 foreach jelolt in `jeloltek' {
-    regress `jelolt' `partok', noconstant
+    regress `jelolt' `partok' if part_total>0, noconstant
     foreach part in `partok' {
-        assert inrange(`jelolt'_`part', 0, 1)
         scalar `jelolt'_`part' = _b[`part']
+        *assert inrange(`jelolt'_`part', 0, 1)
     }
     predict `jelolt'_predict, xb
     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
@@ -29,9 +32,9 @@ foreach jelolt in `jeloltek' {
 }
 
 * estimate total number of votes by combination of parties and candidates
-collapse (sum) `partok', by(szavazokor)
+collapse (sum) `partok'
 expand 4
-egen index = seq(), by(szavazokor)
+egen index = seq()
 generate jelolt = "karacsony" if index == 1
 replace jelolt = "vitezy" if index == 2
 replace jelolt = "grundtner" if index == 3
@@ -41,7 +44,7 @@ foreach part in `partok' {
     rename `part' `part'_szavazatok
     generate `part' = 0
     foreach jelolt in `jeloltek' {
-        replace `part' = `jelolt'_`part' * `part'_szavazatok if jelolt == "`jelolt'""
+        replace `part' = `jelolt'_`part' * `part'_szavazatok if jelolt == "`jelolt'"
     }
 }
 

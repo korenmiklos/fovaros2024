@@ -11,10 +11,11 @@ replace lista = "lmp" if Lista == "Vitezy-LMP"
 replace lista = "fidesz" if Lista == "FIDESZ"
 replace lista = "dk" if Lista == "DK-MSZP-PARBESZED"
 replace lista = "momentum" if Lista == "MOMENTUM"
+replace lista = "ervenytelen" if Lista == "ervenytelen"
 
 drop Lista
 
-reshape wide Szavazat, i(MAZ TAZ TEVK) j(lista) string
+reshape wide Szavazat, i(MAZ TAZ TEVK szavkor) j(lista) string
 rename Szavazat* *
 
 tempfile lista
@@ -23,12 +24,12 @@ save "`lista'", replace
 import delimited "data/2024/fopolgarmester.csv", clear varnames(1) case(preserve) encoding(UTF-8)
 * Szentkiralyi dropped out
 drop if Jelolt == "Szentkiralyi"
-reshape wide Szavazat, i(MAZ TAZ TEVK) j(Jelolt) string
+reshape wide Szavazat, i(MAZ TAZ TEVK szavkor) j(Jelolt) string
 rename Szavazat* *
 
 rename Karacsony karacsony
 rename Vitezy vitezy
 rename Grundtner grundtner
 
-merge 1:1 MAZ TAZ TEVK using "`lista'",
+merge 1:1 MAZ TAZ TEVK szavkor using "`lista'",
 save "data/2024/budapest.dta", replace
