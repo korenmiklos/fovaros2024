@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 # SET A VALID VALASZTAS.HU TIMESTAMP HERE
-timestamp = '06092243'
+timestamp = '06092330'
 
 data = [json.loads(requests.get(f'https://vtr.valasztas.hu/onk2024/data/{timestamp}/szavossz/01/SzavkorJkv-01-0{(2-len(str(i+1)))*"0"+str(i+1)}.json').content) for i in range(23)]
 dt = []
