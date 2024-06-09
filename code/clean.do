@@ -30,6 +30,7 @@ rename Szavazat* *
 rename Karacsony karacsony
 rename Vitezy vitezy
 rename Grundtner grundtner
+rename ervenytelen ervenytelen_fo
 
 merge 1:1 MAZ TAZ TEVK szavkor using "`lista'",
 save "data/2024/budapest.dta", replace

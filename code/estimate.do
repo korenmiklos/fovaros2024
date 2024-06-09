@@ -2,8 +2,8 @@ clear
 use "data/2024/budapest.dta"
 egen szavazokor = group(MAZ TAZ TEVK szavkor)
 
-local partok mkkp mihazank tisza lmp fidesz dk momentum kispartok
-local jeloltek karacsony vitezy grundtner ervenytelen 
+local partok mkkp mihazank tisza lmp fidesz dk momentum kispartok ervenytelen
+local jeloltek karacsony vitezy grundtner ervenytelen_fo 
 
 generate total = karacsony + vitezy + grundtner
 generate part_total = mkkp + mihazank + neppartjan + munkaspart + szolidaritas + tisza + lmp + fidesz + dk
@@ -51,7 +51,7 @@ egen index = seq()
 generate jelolt = "karacsony" if index == 1
 replace jelolt = "vitezy" if index == 2
 replace jelolt = "grundtner" if index == 3
-replace jelolt = "ervenytelen" if index == 4
+replace jelolt = "ervenytelen_fo" if index == 4
 
 foreach part in `partok'  {
     rename `part' `part'_szavazatok
