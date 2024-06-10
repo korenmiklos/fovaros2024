@@ -2,7 +2,7 @@ clear
 use "data/2024/budapest.dta"
 egen szavazokor = group(MAZ TAZ TEVK szavkor)
 
-local partok mkkp mihazank tisza lmp fidesz dk momentum neppartjan munkaspart szolidaritas ervenytelen
+local partok mkkp mihazank tisza lmp fidesz dk momentum neppartjan munkaspart szolidaritas 
 local jeloltek karacsony vitezy grundtner ervenytelen_fo 
 
 generate total = karacsony + vitezy + grundtner
