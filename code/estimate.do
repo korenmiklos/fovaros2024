@@ -11,14 +11,14 @@ generate kispartok = neppartjan + munkaspart + szolidaritas
 
 local formula 0
 foreach part in `partok' {
-    local formula `formula' + normal({`part'})*`part'
+    local formula `formula' + exp({`part'})/(1+exp({`part'}))*`part'
 }
 
 foreach jelolt in `jeloltek' {
     regress `jelolt' `partok' if part_total>0, noconstant robust
     nl (`jelolt' = `formula') if part_total>0, noconstant
     foreach part in `partok' {
-        scalar `jelolt'_`part' = normal(_b[/`part'])
+        scalar `jelolt'_`part' = exp(_b[/`part'])/(1+exp(_b[/`part']))
         *generate `jelolt'_X_`part' = `jelolt'_`part' * `part'
     }
     predict `jelolt'_predict
