@@ -43,17 +43,17 @@ Fovarosi lista,01,001,Budapest 01. kerület,02,Nep Partjan,1,004
 Fovarosi lista,01,001,Budapest 01. kerület,02,Munkaspart,1,004
 Fovarosi lista,01,001,Budapest 01. kerület,02,Szolidaritas,1,004
 Fovarosi lista,01,001,Budapest 01. kerület,02,ervenytelen,24,004
-Fovarosi lista,01,001,Budapest 01. kerület,03,MKKP,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,Mi Hazank,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,Nep Partjan,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,Munkaspart,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,Szolidaritas,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,TISZA,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,Vitezy-LMP,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,FIDESZ,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,DK-MSZP-PARBESZED,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,MOMENTUM,0,005
-Fovarosi lista,01,001,Budapest 01. kerület,03,ervenytelen,0,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,FIDESZ,346,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,TISZA,235,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,DK-MSZP-PARBESZED,157,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,Vitezy-LMP,93,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,MKKP,78,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,MOMENTUM,45,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,Mi Hazank,24,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,Munkaspart,2,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,Szolidaritas,2,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,Nep Partjan,1,005
+Fovarosi lista,01,001,Budapest 01. kerület,03,ervenytelen,15,005
 Fovarosi lista,01,001,Budapest 01. kerület,03,MKKP,0,006
 Fovarosi lista,01,001,Budapest 01. kerület,03,Mi Hazank,0,006
 Fovarosi lista,01,001,Budapest 01. kerület,03,Nep Partjan,0,006
@@ -615,17 +615,17 @@ Fovarosi lista,01,002,Budapest 02. kerület,08,Munkaspart,1,020
 Fovarosi lista,01,002,Budapest 02. kerület,08,Nep Partjan,0,020
 Fovarosi lista,01,002,Budapest 02. kerület,08,Szolidaritas,0,020
 Fovarosi lista,01,002,Budapest 02. kerület,08,ervenytelen,7,020
-Fovarosi lista,01,002,Budapest 02. kerület,08,MKKP,0,022
-Fovarosi lista,01,002,Budapest 02. kerület,08,Mi Hazank,0,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,TISZA,194,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,FIDESZ,188,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,DK-MSZP-PARBESZED,96,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,Vitezy-LMP,62,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,MKKP,31,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,MOMENTUM,30,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,Mi Hazank,15,022
 Fovarosi lista,01,002,Budapest 02. kerület,08,Nep Partjan,0,022
 Fovarosi lista,01,002,Budapest 02. kerület,08,Munkaspart,0,022
 Fovarosi lista,01,002,Budapest 02. kerület,08,Szolidaritas,0,022
-Fovarosi lista,01,002,Budapest 02. kerület,08,TISZA,0,022
-Fovarosi lista,01,002,Budapest 02. kerület,08,Vitezy-LMP,0,022
-Fovarosi lista,01,002,Budapest 02. kerület,08,FIDESZ,0,022
-Fovarosi lista,01,002,Budapest 02. kerület,08,DK-MSZP-PARBESZED,0,022
-Fovarosi lista,01,002,Budapest 02. kerület,08,MOMENTUM,0,022
-Fovarosi lista,01,002,Budapest 02. kerület,08,ervenytelen,0,022
+Fovarosi lista,01,002,Budapest 02. kerület,08,ervenytelen,6,022
 Fovarosi lista,01,002,Budapest 02. kerület,08,FIDESZ,152,028
 Fovarosi lista,01,002,Budapest 02. kerület,08,TISZA,116,028
 Fovarosi lista,01,002,Budapest 02. kerület,08,DK-MSZP-PARBESZED,82,028
@@ -813,17 +813,17 @@ Fovarosi lista,01,002,Budapest 02. kerület,11,Nep Partjan,0,054
 Fovarosi lista,01,002,Budapest 02. kerület,11,Munkaspart,0,054
 Fovarosi lista,01,002,Budapest 02. kerület,11,Szolidaritas,0,054
 Fovarosi lista,01,002,Budapest 02. kerület,11,ervenytelen,16,054
-Fovarosi lista,01,002,Budapest 02. kerület,11,MKKP,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,Mi Hazank,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,Nep Partjan,0,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,TISZA,154,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,FIDESZ,143,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,DK-MSZP-PARBESZED,84,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,Vitezy-LMP,57,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,MKKP,36,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,MOMENTUM,29,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,Mi Hazank,20,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,Nep Partjan,1,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,Szolidaritas,1,074
 Fovarosi lista,01,002,Budapest 02. kerület,11,Munkaspart,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,Szolidaritas,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,TISZA,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,Vitezy-LMP,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,FIDESZ,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,DK-MSZP-PARBESZED,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,MOMENTUM,0,074
-Fovarosi lista,01,002,Budapest 02. kerület,11,ervenytelen,0,074
+Fovarosi lista,01,002,Budapest 02. kerület,11,ervenytelen,7,074
 Fovarosi lista,01,002,Budapest 02. kerület,12,FIDESZ,228,035
 Fovarosi lista,01,002,Budapest 02. kerület,12,TISZA,146,035
 Fovarosi lista,01,002,Budapest 02. kerület,12,DK-MSZP-PARBESZED,101,035
@@ -1110,17 +1110,17 @@ Fovarosi lista,01,003,Budapest 03. kerület,02,Munkaspart,1,045
 Fovarosi lista,01,003,Budapest 03. kerület,02,Nep Partjan,0,045
 Fovarosi lista,01,003,Budapest 03. kerület,02,Szolidaritas,0,045
 Fovarosi lista,01,003,Budapest 03. kerület,02,ervenytelen,19,045
-Fovarosi lista,01,003,Budapest 03. kerület,02,TISZA,190,046
-Fovarosi lista,01,003,Budapest 03. kerület,02,FIDESZ,143,046
-Fovarosi lista,01,003,Budapest 03. kerület,02,DK-MSZP-PARBESZED,110,046
-Fovarosi lista,01,003,Budapest 03. kerület,02,MKKP,45,046
-Fovarosi lista,01,003,Budapest 03. kerület,02,Vitezy-LMP,44,046
-Fovarosi lista,01,003,Budapest 03. kerület,02,Mi Hazank,13,046
-Fovarosi lista,01,003,Budapest 03. kerület,02,MOMENTUM,1,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,TISZA,206,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,FIDESZ,159,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,DK-MSZP-PARBESZED,125,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,MKKP,61,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,Vitezy-LMP,60,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,Mi Hazank,29,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,MOMENTUM,17,046
 Fovarosi lista,01,003,Budapest 03. kerület,02,Nep Partjan,0,046
 Fovarosi lista,01,003,Budapest 03. kerület,02,Munkaspart,0,046
 Fovarosi lista,01,003,Budapest 03. kerület,02,Szolidaritas,0,046
-Fovarosi lista,01,003,Budapest 03. kerület,02,ervenytelen,65,046
+Fovarosi lista,01,003,Budapest 03. kerület,02,ervenytelen,9,046
 Fovarosi lista,01,003,Budapest 03. kerület,02,TISZA,113,047
 Fovarosi lista,01,003,Budapest 03. kerület,02,FIDESZ,113,047
 Fovarosi lista,01,003,Budapest 03. kerület,02,DK-MSZP-PARBESZED,56,047
@@ -1242,17 +1242,17 @@ Fovarosi lista,01,003,Budapest 03. kerület,04,Nep Partjan,0,011
 Fovarosi lista,01,003,Budapest 03. kerület,04,Munkaspart,0,011
 Fovarosi lista,01,003,Budapest 03. kerület,04,Szolidaritas,0,011
 Fovarosi lista,01,003,Budapest 03. kerület,04,ervenytelen,13,011
-Fovarosi lista,01,003,Budapest 03. kerület,04,MKKP,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,Mi Hazank,0,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,FIDESZ,238,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,TISZA,190,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,DK-MSZP-PARBESZED,110,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,MKKP,55,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,Vitezy-LMP,51,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,MOMENTUM,33,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,Mi Hazank,17,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,Munkaspart,1,012
 Fovarosi lista,01,003,Budapest 03. kerület,04,Nep Partjan,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,Munkaspart,0,012
 Fovarosi lista,01,003,Budapest 03. kerület,04,Szolidaritas,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,TISZA,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,Vitezy-LMP,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,FIDESZ,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,DK-MSZP-PARBESZED,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,MOMENTUM,0,012
-Fovarosi lista,01,003,Budapest 03. kerület,04,ervenytelen,0,012
+Fovarosi lista,01,003,Budapest 03. kerület,04,ervenytelen,2,012
 Fovarosi lista,01,003,Budapest 03. kerület,04,MKKP,0,013
 Fovarosi lista,01,003,Budapest 03. kerület,04,Mi Hazank,0,013
 Fovarosi lista,01,003,Budapest 03. kerület,04,Nep Partjan,0,013
@@ -1396,17 +1396,17 @@ Fovarosi lista,01,003,Budapest 03. kerület,06,Munkaspart,1,048
 Fovarosi lista,01,003,Budapest 03. kerület,06,Szolidaritas,1,048
 Fovarosi lista,01,003,Budapest 03. kerület,06,Nep Partjan,0,048
 Fovarosi lista,01,003,Budapest 03. kerület,06,ervenytelen,7,048
-Fovarosi lista,01,003,Budapest 03. kerület,06,FIDESZ,143,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,TISZA,135,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,DK-MSZP-PARBESZED,104,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,Vitezy-LMP,68,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,MKKP,49,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,MOMENTUM,19,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,Mi Hazank,16,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,Munkaspart,1,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,Szolidaritas,0,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,FIDESZ,142,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,TISZA,134,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,DK-MSZP-PARBESZED,103,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,Vitezy-LMP,67,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,MKKP,48,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,MOMENTUM,18,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,Mi Hazank,15,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,Munkaspart,0,049
 Fovarosi lista,01,003,Budapest 03. kerület,06,Nep Partjan,0,049
-Fovarosi lista,01,003,Budapest 03. kerület,06,ervenytelen,9,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,Szolidaritas,0,049
+Fovarosi lista,01,003,Budapest 03. kerület,06,ervenytelen,18,049
 Fovarosi lista,01,003,Budapest 03. kerület,06,TISZA,145,050
 Fovarosi lista,01,003,Budapest 03. kerület,06,FIDESZ,139,050
 Fovarosi lista,01,003,Budapest 03. kerület,06,DK-MSZP-PARBESZED,94,050
@@ -1583,17 +1583,17 @@ Fovarosi lista,01,003,Budapest 03. kerület,08,FIDESZ,0,019
 Fovarosi lista,01,003,Budapest 03. kerület,08,DK-MSZP-PARBESZED,0,019
 Fovarosi lista,01,003,Budapest 03. kerület,08,MOMENTUM,0,019
 Fovarosi lista,01,003,Budapest 03. kerület,08,ervenytelen,0,019
-Fovarosi lista,01,003,Budapest 03. kerület,08,MKKP,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,Mi Hazank,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,Nep Partjan,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,Munkaspart,0,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,TISZA,300,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,FIDESZ,226,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,DK-MSZP-PARBESZED,108,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,MKKP,69,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,Vitezy-LMP,64,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,Mi Hazank,41,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,MOMENTUM,38,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,Nep Partjan,2,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,Munkaspart,1,020
 Fovarosi lista,01,003,Budapest 03. kerület,08,Szolidaritas,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,TISZA,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,Vitezy-LMP,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,FIDESZ,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,DK-MSZP-PARBESZED,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,MOMENTUM,0,020
-Fovarosi lista,01,003,Budapest 03. kerület,08,ervenytelen,0,020
+Fovarosi lista,01,003,Budapest 03. kerület,08,ervenytelen,8,020
 Fovarosi lista,01,003,Budapest 03. kerület,08,TISZA,162,067
 Fovarosi lista,01,003,Budapest 03. kerület,08,FIDESZ,150,067
 Fovarosi lista,01,003,Budapest 03. kerület,08,DK-MSZP-PARBESZED,107,067
@@ -1946,17 +1946,17 @@ Fovarosi lista,01,003,Budapest 03. kerület,13,Nep Partjan,1,105
 Fovarosi lista,01,003,Budapest 03. kerület,13,Munkaspart,0,105
 Fovarosi lista,01,003,Budapest 03. kerület,13,Szolidaritas,0,105
 Fovarosi lista,01,003,Budapest 03. kerület,13,ervenytelen,12,105
-Fovarosi lista,01,003,Budapest 03. kerület,13,MKKP,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,Mi Hazank,0,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,FIDESZ,147,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,TISZA,136,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,DK-MSZP-PARBESZED,108,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,Vitezy-LMP,58,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,MKKP,27,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,Mi Hazank,27,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,MOMENTUM,17,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,Munkaspart,3,106
 Fovarosi lista,01,003,Budapest 03. kerület,13,Nep Partjan,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,Munkaspart,0,106
 Fovarosi lista,01,003,Budapest 03. kerület,13,Szolidaritas,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,TISZA,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,Vitezy-LMP,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,FIDESZ,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,DK-MSZP-PARBESZED,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,MOMENTUM,0,106
-Fovarosi lista,01,003,Budapest 03. kerület,13,ervenytelen,0,106
+Fovarosi lista,01,003,Budapest 03. kerület,13,ervenytelen,10,106
 Fovarosi lista,01,003,Budapest 03. kerület,13,FIDESZ,142,107
 Fovarosi lista,01,003,Budapest 03. kerület,13,TISZA,136,107
 Fovarosi lista,01,003,Budapest 03. kerület,13,DK-MSZP-PARBESZED,95,107
@@ -3002,17 +3002,17 @@ Fovarosi lista,01,005,Budapest 05. kerület,01,Szolidaritas,5,001
 Fovarosi lista,01,005,Budapest 05. kerület,01,Munkaspart,2,001
 Fovarosi lista,01,005,Budapest 05. kerület,01,Nep Partjan,0,001
 Fovarosi lista,01,005,Budapest 05. kerület,01,ervenytelen,6,001
-Fovarosi lista,01,005,Budapest 05. kerület,01,MKKP,0,002
-Fovarosi lista,01,005,Budapest 05. kerület,01,Mi Hazank,0,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,FIDESZ,262,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,TISZA,169,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,DK-MSZP-PARBESZED,81,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,Vitezy-LMP,64,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,MKKP,36,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,MOMENTUM,22,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,Mi Hazank,17,002
 Fovarosi lista,01,005,Budapest 05. kerület,01,Nep Partjan,0,002
 Fovarosi lista,01,005,Budapest 05. kerület,01,Munkaspart,0,002
 Fovarosi lista,01,005,Budapest 05. kerület,01,Szolidaritas,0,002
-Fovarosi lista,01,005,Budapest 05. kerület,01,TISZA,0,002
-Fovarosi lista,01,005,Budapest 05. kerület,01,Vitezy-LMP,0,002
-Fovarosi lista,01,005,Budapest 05. kerület,01,FIDESZ,0,002
-Fovarosi lista,01,005,Budapest 05. kerület,01,DK-MSZP-PARBESZED,0,002
-Fovarosi lista,01,005,Budapest 05. kerület,01,MOMENTUM,0,002
-Fovarosi lista,01,005,Budapest 05. kerület,01,ervenytelen,0,002
+Fovarosi lista,01,005,Budapest 05. kerület,01,ervenytelen,20,002
 Fovarosi lista,01,005,Budapest 05. kerület,02,FIDESZ,255,003
 Fovarosi lista,01,005,Budapest 05. kerület,02,TISZA,140,003
 Fovarosi lista,01,005,Budapest 05. kerület,02,DK-MSZP-PARBESZED,84,003
@@ -3024,17 +3024,17 @@ Fovarosi lista,01,005,Budapest 05. kerület,02,Munkaspart,2,003
 Fovarosi lista,01,005,Budapest 05. kerület,02,Nep Partjan,1,003
 Fovarosi lista,01,005,Budapest 05. kerület,02,Szolidaritas,1,003
 Fovarosi lista,01,005,Budapest 05. kerület,02,ervenytelen,6,003
-Fovarosi lista,01,005,Budapest 05. kerület,02,MKKP,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,Mi Hazank,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,Nep Partjan,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,Munkaspart,0,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,FIDESZ,269,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,TISZA,181,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,DK-MSZP-PARBESZED,87,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,Vitezy-LMP,68,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,MKKP,60,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,MOMENTUM,54,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,Mi Hazank,30,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,Nep Partjan,1,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,Munkaspart,1,004
 Fovarosi lista,01,005,Budapest 05. kerület,02,Szolidaritas,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,TISZA,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,Vitezy-LMP,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,FIDESZ,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,DK-MSZP-PARBESZED,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,MOMENTUM,0,004
-Fovarosi lista,01,005,Budapest 05. kerület,02,ervenytelen,0,004
+Fovarosi lista,01,005,Budapest 05. kerület,02,ervenytelen,9,004
 Fovarosi lista,01,005,Budapest 05. kerület,03,FIDESZ,263,005
 Fovarosi lista,01,005,Budapest 05. kerület,03,TISZA,138,005
 Fovarosi lista,01,005,Budapest 05. kerület,03,DK-MSZP-PARBESZED,93,005
@@ -3508,17 +3508,17 @@ Fovarosi lista,01,007,Budapest 07. kerület,01,Munkaspart,2,001
 Fovarosi lista,01,007,Budapest 07. kerület,01,Szolidaritas,1,001
 Fovarosi lista,01,007,Budapest 07. kerület,01,Nep Partjan,0,001
 Fovarosi lista,01,007,Budapest 07. kerület,01,ervenytelen,20,001
-Fovarosi lista,01,007,Budapest 07. kerület,01,MKKP,0,002
-Fovarosi lista,01,007,Budapest 07. kerület,01,Mi Hazank,0,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,FIDESZ,169,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,TISZA,148,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,DK-MSZP-PARBESZED,116,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,MKKP,52,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,Vitezy-LMP,41,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,MOMENTUM,24,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,Mi Hazank,20,002
 Fovarosi lista,01,007,Budapest 07. kerület,01,Nep Partjan,0,002
 Fovarosi lista,01,007,Budapest 07. kerület,01,Munkaspart,0,002
 Fovarosi lista,01,007,Budapest 07. kerület,01,Szolidaritas,0,002
-Fovarosi lista,01,007,Budapest 07. kerület,01,TISZA,0,002
-Fovarosi lista,01,007,Budapest 07. kerület,01,Vitezy-LMP,0,002
-Fovarosi lista,01,007,Budapest 07. kerület,01,FIDESZ,0,002
-Fovarosi lista,01,007,Budapest 07. kerület,01,DK-MSZP-PARBESZED,0,002
-Fovarosi lista,01,007,Budapest 07. kerület,01,MOMENTUM,0,002
-Fovarosi lista,01,007,Budapest 07. kerület,01,ervenytelen,0,002
+Fovarosi lista,01,007,Budapest 07. kerület,01,ervenytelen,21,002
 Fovarosi lista,01,007,Budapest 07. kerület,01,FIDESZ,143,003
 Fovarosi lista,01,007,Budapest 07. kerület,01,TISZA,113,003
 Fovarosi lista,01,007,Budapest 07. kerület,01,DK-MSZP-PARBESZED,109,003
@@ -3629,17 +3629,17 @@ Fovarosi lista,01,007,Budapest 07. kerület,04,Szolidaritas,3,012
 Fovarosi lista,01,007,Budapest 07. kerület,04,Nep Partjan,1,012
 Fovarosi lista,01,007,Budapest 07. kerület,04,Munkaspart,1,012
 Fovarosi lista,01,007,Budapest 07. kerület,04,ervenytelen,10,012
-Fovarosi lista,01,007,Budapest 07. kerület,04,MKKP,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,Mi Hazank,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,Nep Partjan,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,Munkaspart,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,Szolidaritas,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,TISZA,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,Vitezy-LMP,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,FIDESZ,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,DK-MSZP-PARBESZED,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,MOMENTUM,0,013
-Fovarosi lista,01,007,Budapest 07. kerület,04,ervenytelen,0,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,TISZA,154,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,FIDESZ,129,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,DK-MSZP-PARBESZED,85,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,MKKP,67,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,Vitezy-LMP,45,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,MOMENTUM,31,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,Mi Hazank,15,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,Szolidaritas,4,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,Nep Partjan,1,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,Munkaspart,1,013
+Fovarosi lista,01,007,Budapest 07. kerület,04,ervenytelen,9,013
 Fovarosi lista,01,007,Budapest 07. kerület,04,TISZA,128,014
 Fovarosi lista,01,007,Budapest 07. kerület,04,FIDESZ,117,014
 Fovarosi lista,01,007,Budapest 07. kerület,04,DK-MSZP-PARBESZED,85,014
@@ -3761,17 +3761,17 @@ Fovarosi lista,01,007,Budapest 07. kerület,07,FIDESZ,0,024
 Fovarosi lista,01,007,Budapest 07. kerület,07,DK-MSZP-PARBESZED,0,024
 Fovarosi lista,01,007,Budapest 07. kerület,07,MOMENTUM,0,024
 Fovarosi lista,01,007,Budapest 07. kerület,07,ervenytelen,0,024
-Fovarosi lista,01,007,Budapest 07. kerület,07,MKKP,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,Mi Hazank,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,Nep Partjan,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,Munkaspart,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,Szolidaritas,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,TISZA,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,Vitezy-LMP,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,FIDESZ,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,DK-MSZP-PARBESZED,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,MOMENTUM,0,025
-Fovarosi lista,01,007,Budapest 07. kerület,07,ervenytelen,0,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,FIDESZ,149,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,TISZA,127,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,DK-MSZP-PARBESZED,73,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,Vitezy-LMP,56,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,MKKP,48,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,MOMENTUM,34,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,Mi Hazank,18,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,Szolidaritas,5,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,Munkaspart,2,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,Nep Partjan,1,025
+Fovarosi lista,01,007,Budapest 07. kerület,07,ervenytelen,7,025
 Fovarosi lista,01,007,Budapest 07. kerület,07,MKKP,0,026
 Fovarosi lista,01,007,Budapest 07. kerület,07,Mi Hazank,0,026
 Fovarosi lista,01,007,Budapest 07. kerület,07,Nep Partjan,0,026
@@ -3827,17 +3827,17 @@ Fovarosi lista,01,007,Budapest 07. kerület,08,FIDESZ,0,030
 Fovarosi lista,01,007,Budapest 07. kerület,08,DK-MSZP-PARBESZED,0,030
 Fovarosi lista,01,007,Budapest 07. kerület,08,MOMENTUM,0,030
 Fovarosi lista,01,007,Budapest 07. kerület,08,ervenytelen,0,030
-Fovarosi lista,01,007,Budapest 07. kerület,09,MKKP,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,Mi Hazank,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,Nep Partjan,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,Munkaspart,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,Szolidaritas,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,TISZA,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,Vitezy-LMP,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,FIDESZ,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,DK-MSZP-PARBESZED,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,MOMENTUM,0,031
-Fovarosi lista,01,007,Budapest 07. kerület,09,ervenytelen,0,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,TISZA,145,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,FIDESZ,121,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,DK-MSZP-PARBESZED,80,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,MKKP,61,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,Vitezy-LMP,48,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,MOMENTUM,30,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,Mi Hazank,17,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,Szolidaritas,4,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,Nep Partjan,1,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,Munkaspart,1,031
+Fovarosi lista,01,007,Budapest 07. kerület,09,ervenytelen,4,031
 Fovarosi lista,01,007,Budapest 07. kerület,09,FIDESZ,192,032
 Fovarosi lista,01,007,Budapest 07. kerület,09,TISZA,154,032
 Fovarosi lista,01,007,Budapest 07. kerület,09,DK-MSZP-PARBESZED,79,032
@@ -4421,17 +4421,17 @@ Fovarosi lista,01,008,Budapest 08. kerület,11,Munkaspart,1,047
 Fovarosi lista,01,008,Budapest 08. kerület,11,Szolidaritas,1,047
 Fovarosi lista,01,008,Budapest 08. kerület,11,Nep Partjan,0,047
 Fovarosi lista,01,008,Budapest 08. kerület,11,ervenytelen,5,047
-Fovarosi lista,01,008,Budapest 08. kerület,11,FIDESZ,232,048
-Fovarosi lista,01,008,Budapest 08. kerület,11,TISZA,86,048
-Fovarosi lista,01,008,Budapest 08. kerület,11,DK-MSZP-PARBESZED,66,048
-Fovarosi lista,01,008,Budapest 08. kerület,11,Vitezy-LMP,63,048
-Fovarosi lista,01,008,Budapest 08. kerület,11,MKKP,39,048
-Fovarosi lista,01,008,Budapest 08. kerület,11,MOMENTUM,34,048
-Fovarosi lista,01,008,Budapest 08. kerület,11,Mi Hazank,14,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,FIDESZ,278,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,TISZA,119,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,DK-MSZP-PARBESZED,76,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,Vitezy-LMP,74,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,MKKP,45,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,MOMENTUM,42,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,Mi Hazank,15,048
 Fovarosi lista,01,008,Budapest 08. kerület,11,Nep Partjan,0,048
 Fovarosi lista,01,008,Budapest 08. kerület,11,Munkaspart,0,048
 Fovarosi lista,01,008,Budapest 08. kerület,11,Szolidaritas,0,048
-Fovarosi lista,01,008,Budapest 08. kerület,11,ervenytelen,15,048
+Fovarosi lista,01,008,Budapest 08. kerület,11,ervenytelen,16,048
 Fovarosi lista,01,008,Budapest 08. kerület,12,FIDESZ,185,041
 Fovarosi lista,01,008,Budapest 08. kerület,12,TISZA,178,041
 Fovarosi lista,01,008,Budapest 08. kerület,12,MKKP,87,041
@@ -4795,28 +4795,28 @@ Fovarosi lista,01,009,Budapest 09. kerület,08,Munkaspart,2,029
 Fovarosi lista,01,009,Budapest 09. kerület,08,Nep Partjan,0,029
 Fovarosi lista,01,009,Budapest 09. kerület,08,Szolidaritas,0,029
 Fovarosi lista,01,009,Budapest 09. kerület,08,ervenytelen,11,029
-Fovarosi lista,01,009,Budapest 09. kerület,08,MKKP,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,Mi Hazank,0,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,FIDESZ,120,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,TISZA,115,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,DK-MSZP-PARBESZED,60,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,MKKP,52,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,Vitezy-LMP,48,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,Mi Hazank,16,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,MOMENTUM,16,030
 Fovarosi lista,01,009,Budapest 09. kerület,08,Nep Partjan,0,030
 Fovarosi lista,01,009,Budapest 09. kerület,08,Munkaspart,0,030
 Fovarosi lista,01,009,Budapest 09. kerület,08,Szolidaritas,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,TISZA,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,Vitezy-LMP,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,FIDESZ,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,DK-MSZP-PARBESZED,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,MOMENTUM,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,ervenytelen,0,030
-Fovarosi lista,01,009,Budapest 09. kerület,08,MKKP,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,Mi Hazank,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,Nep Partjan,0,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,ervenytelen,6,030
+Fovarosi lista,01,009,Budapest 09. kerület,08,TISZA,180,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,FIDESZ,111,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,MKKP,66,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,Vitezy-LMP,52,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,DK-MSZP-PARBESZED,48,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,MOMENTUM,28,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,Mi Hazank,6,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,Nep Partjan,3,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,Szolidaritas,1,031
 Fovarosi lista,01,009,Budapest 09. kerület,08,Munkaspart,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,Szolidaritas,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,TISZA,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,Vitezy-LMP,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,FIDESZ,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,DK-MSZP-PARBESZED,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,MOMENTUM,0,031
-Fovarosi lista,01,009,Budapest 09. kerület,08,ervenytelen,0,031
+Fovarosi lista,01,009,Budapest 09. kerület,08,ervenytelen,5,031
 Fovarosi lista,01,009,Budapest 09. kerület,09,TISZA,198,032
 Fovarosi lista,01,009,Budapest 09. kerület,09,FIDESZ,164,032
 Fovarosi lista,01,009,Budapest 09. kerület,09,DK-MSZP-PARBESZED,89,032
@@ -5026,17 +5026,17 @@ Fovarosi lista,01,010,Budapest 10. kerület,01,Nep Partjan,1,001
 Fovarosi lista,01,010,Budapest 10. kerület,01,Munkaspart,1,001
 Fovarosi lista,01,010,Budapest 10. kerület,01,Szolidaritas,1,001
 Fovarosi lista,01,010,Budapest 10. kerület,01,ervenytelen,7,001
-Fovarosi lista,01,010,Budapest 10. kerület,01,MKKP,0,002
-Fovarosi lista,01,010,Budapest 10. kerület,01,Mi Hazank,0,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,TISZA,94,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,DK-MSZP-PARBESZED,88,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,FIDESZ,79,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,Vitezy-LMP,27,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,MKKP,17,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,Mi Hazank,14,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,MOMENTUM,12,002
 Fovarosi lista,01,010,Budapest 10. kerület,01,Nep Partjan,0,002
 Fovarosi lista,01,010,Budapest 10. kerület,01,Munkaspart,0,002
 Fovarosi lista,01,010,Budapest 10. kerület,01,Szolidaritas,0,002
-Fovarosi lista,01,010,Budapest 10. kerület,01,TISZA,0,002
-Fovarosi lista,01,010,Budapest 10. kerület,01,Vitezy-LMP,0,002
-Fovarosi lista,01,010,Budapest 10. kerület,01,FIDESZ,0,002
-Fovarosi lista,01,010,Budapest 10. kerület,01,DK-MSZP-PARBESZED,0,002
-Fovarosi lista,01,010,Budapest 10. kerület,01,MOMENTUM,0,002
-Fovarosi lista,01,010,Budapest 10. kerület,01,ervenytelen,0,002
+Fovarosi lista,01,010,Budapest 10. kerület,01,ervenytelen,29,002
 Fovarosi lista,01,010,Budapest 10. kerület,01,FIDESZ,102,003
 Fovarosi lista,01,010,Budapest 10. kerület,01,TISZA,78,003
 Fovarosi lista,01,010,Budapest 10. kerület,01,DK-MSZP-PARBESZED,45,003
@@ -5532,17 +5532,17 @@ Fovarosi lista,01,010,Budapest 10. kerület,08,Munkaspart,1,047
 Fovarosi lista,01,010,Budapest 10. kerület,08,Nep Partjan,0,047
 Fovarosi lista,01,010,Budapest 10. kerület,08,Szolidaritas,0,047
 Fovarosi lista,01,010,Budapest 10. kerület,08,ervenytelen,12,047
-Fovarosi lista,01,010,Budapest 10. kerület,09,MKKP,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,Mi Hazank,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,Nep Partjan,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,Munkaspart,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,Szolidaritas,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,TISZA,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,Vitezy-LMP,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,FIDESZ,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,DK-MSZP-PARBESZED,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,MOMENTUM,0,048
-Fovarosi lista,01,010,Budapest 10. kerület,09,ervenytelen,0,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,FIDESZ,140,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,TISZA,84,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,DK-MSZP-PARBESZED,50,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,Vitezy-LMP,40,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,MKKP,16,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,Mi Hazank,16,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,MOMENTUM,12,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,Munkaspart,6,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,Nep Partjan,3,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,Szolidaritas,1,048
+Fovarosi lista,01,010,Budapest 10. kerület,09,ervenytelen,7,048
 Fovarosi lista,01,010,Budapest 10. kerület,09,FIDESZ,186,049
 Fovarosi lista,01,010,Budapest 10. kerület,09,TISZA,138,049
 Fovarosi lista,01,010,Budapest 10. kerület,09,DK-MSZP-PARBESZED,88,049
@@ -5598,17 +5598,17 @@ Fovarosi lista,01,010,Budapest 10. kerület,10,Munkaspart,2,053
 Fovarosi lista,01,010,Budapest 10. kerület,10,Nep Partjan,1,053
 Fovarosi lista,01,010,Budapest 10. kerület,10,Szolidaritas,0,053
 Fovarosi lista,01,010,Budapest 10. kerület,10,ervenytelen,16,053
-Fovarosi lista,01,010,Budapest 10. kerület,10,MKKP,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,Mi Hazank,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,Nep Partjan,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,Munkaspart,0,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,FIDESZ,175,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,TISZA,113,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,DK-MSZP-PARBESZED,78,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,Vitezy-LMP,61,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,Mi Hazank,24,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,MKKP,22,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,MOMENTUM,15,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,Nep Partjan,1,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,Munkaspart,1,054
 Fovarosi lista,01,010,Budapest 10. kerület,10,Szolidaritas,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,TISZA,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,Vitezy-LMP,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,FIDESZ,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,DK-MSZP-PARBESZED,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,MOMENTUM,0,054
-Fovarosi lista,01,010,Budapest 10. kerület,10,ervenytelen,0,054
+Fovarosi lista,01,010,Budapest 10. kerület,10,ervenytelen,5,054
 Fovarosi lista,01,010,Budapest 10. kerület,10,TISZA,150,055
 Fovarosi lista,01,010,Budapest 10. kerület,10,FIDESZ,134,055
 Fovarosi lista,01,010,Budapest 10. kerület,10,DK-MSZP-PARBESZED,71,055
@@ -5807,17 +5807,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,01,Munkaspart,1,017
 Fovarosi lista,01,011,Budapest 11. kerület,01,Nep Partjan,0,017
 Fovarosi lista,01,011,Budapest 11. kerület,01,Szolidaritas,0,017
 Fovarosi lista,01,011,Budapest 11. kerület,01,ervenytelen,6,017
-Fovarosi lista,01,011,Budapest 11. kerület,01,MKKP,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,Mi Hazank,0,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,FIDESZ,250,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,TISZA,184,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,DK-MSZP-PARBESZED,137,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,MKKP,91,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,Vitezy-LMP,77,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,MOMENTUM,52,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,Mi Hazank,17,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,Munkaspart,1,018
 Fovarosi lista,01,011,Budapest 11. kerület,01,Nep Partjan,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,Munkaspart,0,018
 Fovarosi lista,01,011,Budapest 11. kerület,01,Szolidaritas,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,TISZA,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,Vitezy-LMP,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,FIDESZ,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,DK-MSZP-PARBESZED,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,MOMENTUM,0,018
-Fovarosi lista,01,011,Budapest 11. kerület,01,ervenytelen,0,018
+Fovarosi lista,01,011,Budapest 11. kerület,01,ervenytelen,3,018
 Fovarosi lista,01,011,Budapest 11. kerület,01,FIDESZ,236,019
 Fovarosi lista,01,011,Budapest 11. kerület,01,TISZA,159,019
 Fovarosi lista,01,011,Budapest 11. kerület,01,Vitezy-LMP,98,019
@@ -5829,17 +5829,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,01,Munkaspart,3,019
 Fovarosi lista,01,011,Budapest 11. kerület,01,Nep Partjan,1,019
 Fovarosi lista,01,011,Budapest 11. kerület,01,Szolidaritas,0,019
 Fovarosi lista,01,011,Budapest 11. kerület,01,ervenytelen,6,019
-Fovarosi lista,01,011,Budapest 11. kerület,02,MKKP,0,001
-Fovarosi lista,01,011,Budapest 11. kerület,02,Mi Hazank,0,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,FIDESZ,226,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,TISZA,180,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,DK-MSZP-PARBESZED,100,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,MKKP,77,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,Vitezy-LMP,68,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,MOMENTUM,38,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,Mi Hazank,24,001
 Fovarosi lista,01,011,Budapest 11. kerület,02,Nep Partjan,0,001
 Fovarosi lista,01,011,Budapest 11. kerület,02,Munkaspart,0,001
 Fovarosi lista,01,011,Budapest 11. kerület,02,Szolidaritas,0,001
-Fovarosi lista,01,011,Budapest 11. kerület,02,TISZA,0,001
-Fovarosi lista,01,011,Budapest 11. kerület,02,Vitezy-LMP,0,001
-Fovarosi lista,01,011,Budapest 11. kerület,02,FIDESZ,0,001
-Fovarosi lista,01,011,Budapest 11. kerület,02,DK-MSZP-PARBESZED,0,001
-Fovarosi lista,01,011,Budapest 11. kerület,02,MOMENTUM,0,001
-Fovarosi lista,01,011,Budapest 11. kerület,02,ervenytelen,0,001
+Fovarosi lista,01,011,Budapest 11. kerület,02,ervenytelen,8,001
 Fovarosi lista,01,011,Budapest 11. kerület,02,MKKP,0,002
 Fovarosi lista,01,011,Budapest 11. kerület,02,Mi Hazank,0,002
 Fovarosi lista,01,011,Budapest 11. kerület,02,Nep Partjan,0,002
@@ -5851,17 +5851,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,02,FIDESZ,0,002
 Fovarosi lista,01,011,Budapest 11. kerület,02,DK-MSZP-PARBESZED,0,002
 Fovarosi lista,01,011,Budapest 11. kerület,02,MOMENTUM,0,002
 Fovarosi lista,01,011,Budapest 11. kerület,02,ervenytelen,0,002
-Fovarosi lista,01,011,Budapest 11. kerület,02,MKKP,0,003
-Fovarosi lista,01,011,Budapest 11. kerület,02,Mi Hazank,0,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,FIDESZ,198,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,TISZA,151,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,DK-MSZP-PARBESZED,106,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,MKKP,67,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,Vitezy-LMP,58,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,MOMENTUM,58,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,Mi Hazank,16,003
 Fovarosi lista,01,011,Budapest 11. kerület,02,Nep Partjan,0,003
 Fovarosi lista,01,011,Budapest 11. kerület,02,Munkaspart,0,003
 Fovarosi lista,01,011,Budapest 11. kerület,02,Szolidaritas,0,003
-Fovarosi lista,01,011,Budapest 11. kerület,02,TISZA,0,003
-Fovarosi lista,01,011,Budapest 11. kerület,02,Vitezy-LMP,0,003
-Fovarosi lista,01,011,Budapest 11. kerület,02,FIDESZ,0,003
-Fovarosi lista,01,011,Budapest 11. kerület,02,DK-MSZP-PARBESZED,0,003
-Fovarosi lista,01,011,Budapest 11. kerület,02,MOMENTUM,0,003
-Fovarosi lista,01,011,Budapest 11. kerület,02,ervenytelen,0,003
+Fovarosi lista,01,011,Budapest 11. kerület,02,ervenytelen,13,003
 Fovarosi lista,01,011,Budapest 11. kerület,02,FIDESZ,176,004
 Fovarosi lista,01,011,Budapest 11. kerület,02,TISZA,137,004
 Fovarosi lista,01,011,Budapest 11. kerület,02,DK-MSZP-PARBESZED,116,004
@@ -6269,17 +6269,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,08,Nep Partjan,3,066
 Fovarosi lista,01,011,Budapest 11. kerület,08,Munkaspart,0,066
 Fovarosi lista,01,011,Budapest 11. kerület,08,Szolidaritas,0,066
 Fovarosi lista,01,011,Budapest 11. kerület,08,ervenytelen,12,066
-Fovarosi lista,01,011,Budapest 11. kerület,08,MKKP,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,Mi Hazank,0,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,FIDESZ,168,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,TISZA,157,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,DK-MSZP-PARBESZED,120,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,Vitezy-LMP,68,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,MOMENTUM,48,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,MKKP,43,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,Mi Hazank,23,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,Szolidaritas,1,067
 Fovarosi lista,01,011,Budapest 11. kerület,08,Nep Partjan,0,067
 Fovarosi lista,01,011,Budapest 11. kerület,08,Munkaspart,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,Szolidaritas,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,TISZA,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,Vitezy-LMP,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,FIDESZ,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,DK-MSZP-PARBESZED,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,MOMENTUM,0,067
-Fovarosi lista,01,011,Budapest 11. kerület,08,ervenytelen,0,067
+Fovarosi lista,01,011,Budapest 11. kerület,08,ervenytelen,15,067
 Fovarosi lista,01,011,Budapest 11. kerület,08,TISZA,192,068
 Fovarosi lista,01,011,Budapest 11. kerület,08,DK-MSZP-PARBESZED,150,068
 Fovarosi lista,01,011,Budapest 11. kerület,08,FIDESZ,140,068
@@ -6346,17 +6346,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,09,Munkaspart,3,080
 Fovarosi lista,01,011,Budapest 11. kerület,09,Nep Partjan,2,080
 Fovarosi lista,01,011,Budapest 11. kerület,09,Szolidaritas,0,080
 Fovarosi lista,01,011,Budapest 11. kerület,09,ervenytelen,14,080
-Fovarosi lista,01,011,Budapest 11. kerület,09,MKKP,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,Mi Hazank,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,Nep Partjan,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,Munkaspart,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,Szolidaritas,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,TISZA,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,Vitezy-LMP,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,FIDESZ,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,DK-MSZP-PARBESZED,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,MOMENTUM,0,081
-Fovarosi lista,01,011,Budapest 11. kerület,09,ervenytelen,0,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,FIDESZ,224,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,TISZA,206,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,DK-MSZP-PARBESZED,108,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,MKKP,67,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,Vitezy-LMP,62,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,MOMENTUM,49,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,Mi Hazank,15,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,Nep Partjan,1,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,Munkaspart,1,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,Szolidaritas,1,081
+Fovarosi lista,01,011,Budapest 11. kerület,09,ervenytelen,9,081
 Fovarosi lista,01,011,Budapest 11. kerület,09,FIDESZ,177,082
 Fovarosi lista,01,011,Budapest 11. kerület,09,TISZA,163,082
 Fovarosi lista,01,011,Budapest 11. kerület,09,DK-MSZP-PARBESZED,106,082
@@ -6368,17 +6368,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,09,Munkaspart,6,082
 Fovarosi lista,01,011,Budapest 11. kerület,09,Nep Partjan,0,082
 Fovarosi lista,01,011,Budapest 11. kerület,09,Szolidaritas,0,082
 Fovarosi lista,01,011,Budapest 11. kerület,09,ervenytelen,6,082
-Fovarosi lista,01,011,Budapest 11. kerület,09,MKKP,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,Mi Hazank,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,Nep Partjan,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,Munkaspart,0,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,TISZA,191,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,FIDESZ,169,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,DK-MSZP-PARBESZED,134,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,Vitezy-LMP,75,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,MKKP,71,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,MOMENTUM,42,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,Mi Hazank,34,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,Nep Partjan,1,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,Munkaspart,1,083
 Fovarosi lista,01,011,Budapest 11. kerület,09,Szolidaritas,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,TISZA,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,Vitezy-LMP,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,FIDESZ,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,DK-MSZP-PARBESZED,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,MOMENTUM,0,083
-Fovarosi lista,01,011,Budapest 11. kerület,09,ervenytelen,0,083
+Fovarosi lista,01,011,Budapest 11. kerület,09,ervenytelen,4,083
 Fovarosi lista,01,011,Budapest 11. kerület,09,TISZA,225,084
 Fovarosi lista,01,011,Budapest 11. kerület,09,FIDESZ,193,084
 Fovarosi lista,01,011,Budapest 11. kerület,09,DK-MSZP-PARBESZED,119,084
@@ -6555,17 +6555,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,12,Munkaspart,2,085
 Fovarosi lista,01,011,Budapest 11. kerület,12,Nep Partjan,1,085
 Fovarosi lista,01,011,Budapest 11. kerület,12,Szolidaritas,0,085
 Fovarosi lista,01,011,Budapest 11. kerület,12,ervenytelen,7,085
-Fovarosi lista,01,011,Budapest 11. kerület,12,MKKP,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,Mi Hazank,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,Nep Partjan,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,Munkaspart,0,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,TISZA,198,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,FIDESZ,149,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,DK-MSZP-PARBESZED,117,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,Vitezy-LMP,78,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,MKKP,59,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,MOMENTUM,39,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,Mi Hazank,20,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,Nep Partjan,1,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,Munkaspart,1,086
 Fovarosi lista,01,011,Budapest 11. kerület,12,Szolidaritas,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,TISZA,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,Vitezy-LMP,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,FIDESZ,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,DK-MSZP-PARBESZED,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,MOMENTUM,0,086
-Fovarosi lista,01,011,Budapest 11. kerület,12,ervenytelen,0,086
+Fovarosi lista,01,011,Budapest 11. kerület,12,ervenytelen,2,086
 Fovarosi lista,01,011,Budapest 11. kerület,12,FIDESZ,195,087
 Fovarosi lista,01,011,Budapest 11. kerület,12,TISZA,188,087
 Fovarosi lista,01,011,Budapest 11. kerület,12,DK-MSZP-PARBESZED,103,087
@@ -6709,17 +6709,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,14,Nep Partjan,0,034
 Fovarosi lista,01,011,Budapest 11. kerület,14,Munkaspart,0,034
 Fovarosi lista,01,011,Budapest 11. kerület,14,Szolidaritas,0,034
 Fovarosi lista,01,011,Budapest 11. kerület,14,ervenytelen,5,034
-Fovarosi lista,01,011,Budapest 11. kerület,14,MKKP,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,Mi Hazank,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,Nep Partjan,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,Munkaspart,0,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,FIDESZ,199,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,TISZA,180,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,DK-MSZP-PARBESZED,122,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,Vitezy-LMP,61,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,MKKP,60,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,MOMENTUM,49,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,Mi Hazank,11,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,Nep Partjan,1,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,Munkaspart,1,035
 Fovarosi lista,01,011,Budapest 11. kerület,14,Szolidaritas,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,TISZA,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,Vitezy-LMP,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,FIDESZ,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,DK-MSZP-PARBESZED,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,MOMENTUM,0,035
-Fovarosi lista,01,011,Budapest 11. kerület,14,ervenytelen,0,035
+Fovarosi lista,01,011,Budapest 11. kerület,14,ervenytelen,8,035
 Fovarosi lista,01,011,Budapest 11. kerület,14,FIDESZ,200,036
 Fovarosi lista,01,011,Budapest 11. kerület,14,TISZA,179,036
 Fovarosi lista,01,011,Budapest 11. kerület,14,DK-MSZP-PARBESZED,137,036
@@ -6819,17 +6819,17 @@ Fovarosi lista,01,011,Budapest 11. kerület,15,Nep Partjan,1,058
 Fovarosi lista,01,011,Budapest 11. kerület,15,Munkaspart,1,058
 Fovarosi lista,01,011,Budapest 11. kerület,15,Szolidaritas,0,058
 Fovarosi lista,01,011,Budapest 11. kerület,15,ervenytelen,7,058
-Fovarosi lista,01,011,Budapest 11. kerület,15,MKKP,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,Mi Hazank,0,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,FIDESZ,195,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,TISZA,181,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,DK-MSZP-PARBESZED,118,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,Vitezy-LMP,64,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,MKKP,54,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,MOMENTUM,29,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,Mi Hazank,23,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,Munkaspart,2,059
 Fovarosi lista,01,011,Budapest 11. kerület,15,Nep Partjan,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,Munkaspart,0,059
 Fovarosi lista,01,011,Budapest 11. kerület,15,Szolidaritas,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,TISZA,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,Vitezy-LMP,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,FIDESZ,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,DK-MSZP-PARBESZED,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,MOMENTUM,0,059
-Fovarosi lista,01,011,Budapest 11. kerület,15,ervenytelen,0,059
+Fovarosi lista,01,011,Budapest 11. kerület,15,ervenytelen,7,059
 Fovarosi lista,01,011,Budapest 11. kerület,15,TISZA,157,105
 Fovarosi lista,01,011,Budapest 11. kerület,15,FIDESZ,119,105
 Fovarosi lista,01,011,Budapest 11. kerület,15,DK-MSZP-PARBESZED,65,105
@@ -8205,17 +8205,17 @@ Fovarosi lista,01,013,Budapest 13. kerület,11,Munkaspart,2,062
 Fovarosi lista,01,013,Budapest 13. kerület,11,Szolidaritas,1,062
 Fovarosi lista,01,013,Budapest 13. kerület,11,Nep Partjan,0,062
 Fovarosi lista,01,013,Budapest 13. kerület,11,ervenytelen,12,062
-Fovarosi lista,01,013,Budapest 13. kerület,11,MKKP,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,Mi Hazank,0,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,TISZA,334,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,DK-MSZP-PARBESZED,168,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,FIDESZ,146,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,Vitezy-LMP,102,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,MKKP,91,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,MOMENTUM,51,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,Mi Hazank,28,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,Munkaspart,1,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,Szolidaritas,1,063
 Fovarosi lista,01,013,Budapest 13. kerület,11,Nep Partjan,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,Munkaspart,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,Szolidaritas,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,TISZA,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,Vitezy-LMP,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,FIDESZ,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,DK-MSZP-PARBESZED,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,MOMENTUM,0,063
-Fovarosi lista,01,013,Budapest 13. kerület,11,ervenytelen,0,063
+Fovarosi lista,01,013,Budapest 13. kerület,11,ervenytelen,5,063
 Fovarosi lista,01,013,Budapest 13. kerület,12,TISZA,232,064
 Fovarosi lista,01,013,Budapest 13. kerület,12,FIDESZ,126,064
 Fovarosi lista,01,013,Budapest 13. kerület,12,DK-MSZP-PARBESZED,114,064
@@ -8425,17 +8425,17 @@ Fovarosi lista,01,013,Budapest 13. kerület,15,Munkaspart,3,082
 Fovarosi lista,01,013,Budapest 13. kerület,15,Nep Partjan,1,082
 Fovarosi lista,01,013,Budapest 13. kerület,15,Szolidaritas,0,082
 Fovarosi lista,01,013,Budapest 13. kerület,15,ervenytelen,19,082
-Fovarosi lista,01,013,Budapest 13. kerület,15,MKKP,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,Mi Hazank,0,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,TISZA,231,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,DK-MSZP-PARBESZED,204,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,FIDESZ,169,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,Vitezy-LMP,95,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,MKKP,86,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,MOMENTUM,41,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,Mi Hazank,32,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,Munkaspart,5,083
 Fovarosi lista,01,013,Budapest 13. kerület,15,Nep Partjan,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,Munkaspart,0,083
 Fovarosi lista,01,013,Budapest 13. kerület,15,Szolidaritas,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,TISZA,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,Vitezy-LMP,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,FIDESZ,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,DK-MSZP-PARBESZED,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,MOMENTUM,0,083
-Fovarosi lista,01,013,Budapest 13. kerület,15,ervenytelen,0,083
+Fovarosi lista,01,013,Budapest 13. kerület,15,ervenytelen,16,083
 Fovarosi lista,01,013,Budapest 13. kerület,15,TISZA,235,084
 Fovarosi lista,01,013,Budapest 13. kerület,15,FIDESZ,155,084
 Fovarosi lista,01,013,Budapest 13. kerület,15,DK-MSZP-PARBESZED,126,084
@@ -8612,17 +8612,17 @@ Fovarosi lista,01,014,Budapest 14. kerület,03,Nep Partjan,2,012
 Fovarosi lista,01,014,Budapest 14. kerület,03,Munkaspart,2,012
 Fovarosi lista,01,014,Budapest 14. kerület,03,Szolidaritas,0,012
 Fovarosi lista,01,014,Budapest 14. kerület,03,ervenytelen,7,012
-Fovarosi lista,01,014,Budapest 14. kerület,03,MKKP,0,013
-Fovarosi lista,01,014,Budapest 14. kerület,03,Mi Hazank,0,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,TISZA,220,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,FIDESZ,216,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,DK-MSZP-PARBESZED,138,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,MKKP,76,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,Vitezy-LMP,67,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,MOMENTUM,64,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,Mi Hazank,12,013
 Fovarosi lista,01,014,Budapest 14. kerület,03,Nep Partjan,0,013
 Fovarosi lista,01,014,Budapest 14. kerület,03,Munkaspart,0,013
 Fovarosi lista,01,014,Budapest 14. kerület,03,Szolidaritas,0,013
-Fovarosi lista,01,014,Budapest 14. kerület,03,TISZA,0,013
-Fovarosi lista,01,014,Budapest 14. kerület,03,Vitezy-LMP,0,013
-Fovarosi lista,01,014,Budapest 14. kerület,03,FIDESZ,0,013
-Fovarosi lista,01,014,Budapest 14. kerület,03,DK-MSZP-PARBESZED,0,013
-Fovarosi lista,01,014,Budapest 14. kerület,03,MOMENTUM,0,013
-Fovarosi lista,01,014,Budapest 14. kerület,03,ervenytelen,0,013
+Fovarosi lista,01,014,Budapest 14. kerület,03,ervenytelen,26,013
 Fovarosi lista,01,014,Budapest 14. kerület,03,TISZA,241,014
 Fovarosi lista,01,014,Budapest 14. kerület,03,FIDESZ,204,014
 Fovarosi lista,01,014,Budapest 14. kerület,03,DK-MSZP-PARBESZED,122,014
@@ -8755,17 +8755,17 @@ Fovarosi lista,01,014,Budapest 14. kerület,05,Nep Partjan,3,025
 Fovarosi lista,01,014,Budapest 14. kerület,05,Munkaspart,0,025
 Fovarosi lista,01,014,Budapest 14. kerület,05,Szolidaritas,0,025
 Fovarosi lista,01,014,Budapest 14. kerület,05,ervenytelen,6,025
-Fovarosi lista,01,014,Budapest 14. kerület,05,MKKP,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,Mi Hazank,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,Nep Partjan,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,Munkaspart,0,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,TISZA,249,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,FIDESZ,213,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,DK-MSZP-PARBESZED,134,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,MKKP,102,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,MOMENTUM,77,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,Vitezy-LMP,73,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,Mi Hazank,24,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,Munkaspart,2,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,Nep Partjan,1,026
 Fovarosi lista,01,014,Budapest 14. kerület,05,Szolidaritas,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,TISZA,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,Vitezy-LMP,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,FIDESZ,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,DK-MSZP-PARBESZED,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,MOMENTUM,0,026
-Fovarosi lista,01,014,Budapest 14. kerület,05,ervenytelen,0,026
+Fovarosi lista,01,014,Budapest 14. kerület,05,ervenytelen,13,026
 Fovarosi lista,01,014,Budapest 14. kerület,06,MKKP,0,027
 Fovarosi lista,01,014,Budapest 14. kerület,06,Mi Hazank,0,027
 Fovarosi lista,01,014,Budapest 14. kerület,06,Nep Partjan,0,027
@@ -8788,17 +8788,17 @@ Fovarosi lista,01,014,Budapest 14. kerület,06,Nep Partjan,2,028
 Fovarosi lista,01,014,Budapest 14. kerület,06,Munkaspart,0,028
 Fovarosi lista,01,014,Budapest 14. kerület,06,Szolidaritas,0,028
 Fovarosi lista,01,014,Budapest 14. kerület,06,ervenytelen,20,028
-Fovarosi lista,01,014,Budapest 14. kerület,06,MKKP,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,Mi Hazank,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,Nep Partjan,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,Munkaspart,0,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,TISZA,251,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,FIDESZ,223,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,DK-MSZP-PARBESZED,169,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,Vitezy-LMP,92,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,MKKP,45,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,MOMENTUM,39,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,Mi Hazank,31,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,Munkaspart,4,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,Nep Partjan,1,029
 Fovarosi lista,01,014,Budapest 14. kerület,06,Szolidaritas,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,TISZA,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,Vitezy-LMP,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,FIDESZ,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,DK-MSZP-PARBESZED,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,MOMENTUM,0,029
-Fovarosi lista,01,014,Budapest 14. kerület,06,ervenytelen,0,029
+Fovarosi lista,01,014,Budapest 14. kerület,06,ervenytelen,7,029
 Fovarosi lista,01,014,Budapest 14. kerület,06,TISZA,152,030
 Fovarosi lista,01,014,Budapest 14. kerület,06,FIDESZ,144,030
 Fovarosi lista,01,014,Budapest 14. kerület,06,DK-MSZP-PARBESZED,114,030
@@ -9041,17 +9041,17 @@ Fovarosi lista,01,014,Budapest 14. kerület,10,Munkaspart,2,051
 Fovarosi lista,01,014,Budapest 14. kerület,10,Nep Partjan,0,051
 Fovarosi lista,01,014,Budapest 14. kerület,10,Szolidaritas,0,051
 Fovarosi lista,01,014,Budapest 14. kerület,10,ervenytelen,2,051
-Fovarosi lista,01,014,Budapest 14. kerület,10,MKKP,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,Mi Hazank,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,Nep Partjan,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,Munkaspart,0,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,TISZA,265,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,FIDESZ,179,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,DK-MSZP-PARBESZED,123,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,Vitezy-LMP,59,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,MKKP,56,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,MOMENTUM,54,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,Mi Hazank,38,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,Munkaspart,3,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,Nep Partjan,2,052
 Fovarosi lista,01,014,Budapest 14. kerület,10,Szolidaritas,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,TISZA,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,Vitezy-LMP,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,FIDESZ,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,DK-MSZP-PARBESZED,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,MOMENTUM,0,052
-Fovarosi lista,01,014,Budapest 14. kerület,10,ervenytelen,0,052
+Fovarosi lista,01,014,Budapest 14. kerület,10,ervenytelen,6,052
 Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,255,053
 Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,196,053
 Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,142,053
@@ -9063,39 +9063,39 @@ Fovarosi lista,01,014,Budapest 14. kerület,11,Nep Partjan,0,053
 Fovarosi lista,01,014,Budapest 14. kerület,11,Munkaspart,0,053
 Fovarosi lista,01,014,Budapest 14. kerület,11,Szolidaritas,0,053
 Fovarosi lista,01,014,Budapest 14. kerület,11,ervenytelen,31,053
-Fovarosi lista,01,014,Budapest 14. kerület,11,MKKP,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,Mi Hazank,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,Nep Partjan,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,Munkaspart,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,Szolidaritas,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,Vitezy-LMP,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,MOMENTUM,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,ervenytelen,0,054
-Fovarosi lista,01,014,Budapest 14. kerület,11,MKKP,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,Mi Hazank,0,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,246,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,232,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,150,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,Vitezy-LMP,88,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,MKKP,63,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,MOMENTUM,42,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,Mi Hazank,31,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,Munkaspart,3,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,Nep Partjan,1,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,Szolidaritas,1,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,ervenytelen,13,054
+Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,169,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,144,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,112,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,Vitezy-LMP,75,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,MOMENTUM,49,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,MKKP,47,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,Mi Hazank,19,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,Munkaspart,1,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,Szolidaritas,1,055
 Fovarosi lista,01,014,Budapest 14. kerület,11,Nep Partjan,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,Munkaspart,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,Szolidaritas,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,Vitezy-LMP,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,MOMENTUM,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,ervenytelen,0,055
-Fovarosi lista,01,014,Budapest 14. kerület,11,MKKP,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,Mi Hazank,0,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,ervenytelen,8,055
+Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,266,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,234,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,134,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,Vitezy-LMP,79,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,MKKP,65,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,MOMENTUM,56,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,Mi Hazank,42,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,Munkaspart,1,056
 Fovarosi lista,01,014,Budapest 14. kerület,11,Nep Partjan,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,Munkaspart,0,056
 Fovarosi lista,01,014,Budapest 14. kerület,11,Szolidaritas,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,Vitezy-LMP,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,MOMENTUM,0,056
-Fovarosi lista,01,014,Budapest 14. kerület,11,ervenytelen,0,056
+Fovarosi lista,01,014,Budapest 14. kerület,11,ervenytelen,13,056
 Fovarosi lista,01,014,Budapest 14. kerület,11,TISZA,203,057
 Fovarosi lista,01,014,Budapest 14. kerület,11,FIDESZ,186,057
 Fovarosi lista,01,014,Budapest 14. kerület,11,DK-MSZP-PARBESZED,101,057
@@ -9294,17 +9294,17 @@ Fovarosi lista,01,014,Budapest 14. kerület,14,Munkaspart,2,074
 Fovarosi lista,01,014,Budapest 14. kerület,14,Nep Partjan,0,074
 Fovarosi lista,01,014,Budapest 14. kerület,14,Szolidaritas,0,074
 Fovarosi lista,01,014,Budapest 14. kerület,14,ervenytelen,10,074
-Fovarosi lista,01,014,Budapest 14. kerület,14,MKKP,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,Mi Hazank,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,Nep Partjan,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,Munkaspart,0,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,TISZA,241,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,FIDESZ,211,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,DK-MSZP-PARBESZED,153,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,Vitezy-LMP,70,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,MKKP,55,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,MOMENTUM,46,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,Mi Hazank,22,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,Munkaspart,5,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,Nep Partjan,1,075
 Fovarosi lista,01,014,Budapest 14. kerület,14,Szolidaritas,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,TISZA,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,Vitezy-LMP,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,FIDESZ,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,DK-MSZP-PARBESZED,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,MOMENTUM,0,075
-Fovarosi lista,01,014,Budapest 14. kerület,14,ervenytelen,0,075
+Fovarosi lista,01,014,Budapest 14. kerület,14,ervenytelen,7,075
 Fovarosi lista,01,015,Budapest 15. kerület,01,FIDESZ,207,001
 Fovarosi lista,01,015,Budapest 15. kerület,01,TISZA,196,001
 Fovarosi lista,01,015,Budapest 15. kerület,01,DK-MSZP-PARBESZED,100,001
@@ -9569,17 +9569,17 @@ Fovarosi lista,01,015,Budapest 15. kerület,05,Nep Partjan,1,024
 Fovarosi lista,01,015,Budapest 15. kerület,05,Munkaspart,0,024
 Fovarosi lista,01,015,Budapest 15. kerület,05,Szolidaritas,0,024
 Fovarosi lista,01,015,Budapest 15. kerület,05,ervenytelen,9,024
-Fovarosi lista,01,015,Budapest 15. kerület,05,MKKP,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,Mi Hazank,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,Nep Partjan,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,Munkaspart,0,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,TISZA,154,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,FIDESZ,148,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,DK-MSZP-PARBESZED,141,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,Vitezy-LMP,63,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,MKKP,40,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,Mi Hazank,34,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,MOMENTUM,17,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,Nep Partjan,2,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,Munkaspart,2,025
 Fovarosi lista,01,015,Budapest 15. kerület,05,Szolidaritas,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,TISZA,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,Vitezy-LMP,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,FIDESZ,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,DK-MSZP-PARBESZED,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,MOMENTUM,0,025
-Fovarosi lista,01,015,Budapest 15. kerület,05,ervenytelen,0,025
+Fovarosi lista,01,015,Budapest 15. kerület,05,ervenytelen,10,025
 Fovarosi lista,01,015,Budapest 15. kerület,06,FIDESZ,237,026
 Fovarosi lista,01,015,Budapest 15. kerület,06,TISZA,175,026
 Fovarosi lista,01,015,Budapest 15. kerület,06,DK-MSZP-PARBESZED,134,026
@@ -9822,17 +9822,17 @@ Fovarosi lista,01,015,Budapest 15. kerület,10,Nep Partjan,1,047
 Fovarosi lista,01,015,Budapest 15. kerület,10,Munkaspart,0,047
 Fovarosi lista,01,015,Budapest 15. kerület,10,Szolidaritas,0,047
 Fovarosi lista,01,015,Budapest 15. kerület,10,ervenytelen,11,047
-Fovarosi lista,01,015,Budapest 15. kerület,10,MKKP,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,Mi Hazank,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,Nep Partjan,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,Munkaspart,0,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,FIDESZ,162,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,TISZA,123,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,DK-MSZP-PARBESZED,87,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,Vitezy-LMP,53,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,Mi Hazank,32,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,MKKP,30,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,MOMENTUM,19,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,Munkaspart,5,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,Nep Partjan,1,048
 Fovarosi lista,01,015,Budapest 15. kerület,10,Szolidaritas,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,TISZA,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,Vitezy-LMP,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,FIDESZ,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,DK-MSZP-PARBESZED,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,MOMENTUM,0,048
-Fovarosi lista,01,015,Budapest 15. kerület,10,ervenytelen,0,048
+Fovarosi lista,01,015,Budapest 15. kerület,10,ervenytelen,9,048
 Fovarosi lista,01,015,Budapest 15. kerület,10,FIDESZ,172,049
 Fovarosi lista,01,015,Budapest 15. kerület,10,TISZA,151,049
 Fovarosi lista,01,015,Budapest 15. kerület,10,DK-MSZP-PARBESZED,124,049
@@ -10339,17 +10339,17 @@ Fovarosi lista,01,016,Budapest 16. kerület,07,Munkaspart,2,033
 Fovarosi lista,01,016,Budapest 16. kerület,07,Nep Partjan,1,033
 Fovarosi lista,01,016,Budapest 16. kerület,07,Szolidaritas,0,033
 Fovarosi lista,01,016,Budapest 16. kerület,07,ervenytelen,18,033
-Fovarosi lista,01,016,Budapest 16. kerület,07,TISZA,281,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,FIDESZ,281,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,DK-MSZP-PARBESZED,121,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,Vitezy-LMP,87,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,MKKP,57,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,Mi Hazank,33,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,MOMENTUM,27,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,Munkaspart,3,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,TISZA,280,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,FIDESZ,280,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,DK-MSZP-PARBESZED,119,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,Vitezy-LMP,85,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,MKKP,55,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,Mi Hazank,31,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,MOMENTUM,25,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,Munkaspart,1,034
 Fovarosi lista,01,016,Budapest 16. kerület,07,Nep Partjan,0,034
 Fovarosi lista,01,016,Budapest 16. kerület,07,Szolidaritas,0,034
-Fovarosi lista,01,016,Budapest 16. kerület,07,ervenytelen,13,034
+Fovarosi lista,01,016,Budapest 16. kerület,07,ervenytelen,21,034
 Fovarosi lista,01,016,Budapest 16. kerület,07,TISZA,228,035
 Fovarosi lista,01,016,Budapest 16. kerület,07,FIDESZ,201,035
 Fovarosi lista,01,016,Budapest 16. kerület,07,DK-MSZP-PARBESZED,122,035
@@ -11923,17 +11923,17 @@ Fovarosi lista,01,018,Budapest 18. kerület,08,FIDESZ,0,041
 Fovarosi lista,01,018,Budapest 18. kerület,08,DK-MSZP-PARBESZED,0,041
 Fovarosi lista,01,018,Budapest 18. kerület,08,MOMENTUM,0,041
 Fovarosi lista,01,018,Budapest 18. kerület,08,ervenytelen,0,041
-Fovarosi lista,01,018,Budapest 18. kerület,08,MKKP,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,Mi Hazank,0,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,DK-MSZP-PARBESZED,222,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,FIDESZ,147,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,TISZA,146,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,Vitezy-LMP,96,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,MKKP,29,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,Mi Hazank,27,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,MOMENTUM,16,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,Munkaspart,1,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,Szolidaritas,1,042
 Fovarosi lista,01,018,Budapest 18. kerület,08,Nep Partjan,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,Munkaspart,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,Szolidaritas,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,TISZA,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,Vitezy-LMP,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,FIDESZ,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,DK-MSZP-PARBESZED,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,MOMENTUM,0,042
-Fovarosi lista,01,018,Budapest 18. kerület,08,ervenytelen,0,042
+Fovarosi lista,01,018,Budapest 18. kerület,08,ervenytelen,6,042
 Fovarosi lista,01,018,Budapest 18. kerület,08,FIDESZ,141,043
 Fovarosi lista,01,018,Budapest 18. kerület,08,TISZA,135,043
 Fovarosi lista,01,018,Budapest 18. kerület,08,DK-MSZP-PARBESZED,109,043
@@ -12231,17 +12231,17 @@ Fovarosi lista,01,018,Budapest 18. kerület,13,Munkaspart,2,068
 Fovarosi lista,01,018,Budapest 18. kerület,13,Nep Partjan,0,068
 Fovarosi lista,01,018,Budapest 18. kerület,13,Szolidaritas,0,068
 Fovarosi lista,01,018,Budapest 18. kerület,13,ervenytelen,6,068
-Fovarosi lista,01,018,Budapest 18. kerület,13,MKKP,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,Mi Hazank,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,Nep Partjan,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,Munkaspart,0,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,FIDESZ,243,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,TISZA,187,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,DK-MSZP-PARBESZED,146,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,Vitezy-LMP,87,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,MKKP,35,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,Mi Hazank,30,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,MOMENTUM,23,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,Nep Partjan,1,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,Munkaspart,1,069
 Fovarosi lista,01,018,Budapest 18. kerület,13,Szolidaritas,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,TISZA,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,Vitezy-LMP,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,FIDESZ,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,DK-MSZP-PARBESZED,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,MOMENTUM,0,069
-Fovarosi lista,01,018,Budapest 18. kerület,13,ervenytelen,0,069
+Fovarosi lista,01,018,Budapest 18. kerület,13,ervenytelen,14,069
 Fovarosi lista,01,018,Budapest 18. kerület,13,TISZA,193,070
 Fovarosi lista,01,018,Budapest 18. kerület,13,FIDESZ,170,070
 Fovarosi lista,01,018,Budapest 18. kerület,13,DK-MSZP-PARBESZED,146,070
@@ -12489,7 +12489,7 @@ Fovarosi lista,01,019,Budapest 19. kerület,05,TISZA,149,016
 Fovarosi lista,01,019,Budapest 19. kerület,05,DK-MSZP-PARBESZED,130,016
 Fovarosi lista,01,019,Budapest 19. kerület,05,Vitezy-LMP,83,016
 Fovarosi lista,01,019,Budapest 19. kerület,05,Mi Hazank,28,016
-Fovarosi lista,01,019,Budapest 19. kerület,05,MKKP,25,016
+Fovarosi lista,01,019,Budapest 19. kerület,05,MKKP,26,016
 Fovarosi lista,01,019,Budapest 19. kerület,05,MOMENTUM,22,016
 Fovarosi lista,01,019,Budapest 19. kerület,05,Munkaspart,3,016
 Fovarosi lista,01,019,Budapest 19. kerület,05,Szolidaritas,1,016
@@ -13067,17 +13067,17 @@ Fovarosi lista,01,020,Budapest 20. kerület,06,Szolidaritas,6,026
 Fovarosi lista,01,020,Budapest 20. kerület,06,Nep Partjan,2,026
 Fovarosi lista,01,020,Budapest 20. kerület,06,Munkaspart,2,026
 Fovarosi lista,01,020,Budapest 20. kerület,06,ervenytelen,4,026
-Fovarosi lista,01,020,Budapest 20. kerület,06,MKKP,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,Mi Hazank,0,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,FIDESZ,188,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,TISZA,176,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,DK-MSZP-PARBESZED,70,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,Vitezy-LMP,48,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,MKKP,32,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,Mi Hazank,23,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,MOMENTUM,23,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,Szolidaritas,4,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,Munkaspart,2,039
 Fovarosi lista,01,020,Budapest 20. kerület,06,Nep Partjan,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,Munkaspart,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,Szolidaritas,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,TISZA,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,Vitezy-LMP,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,FIDESZ,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,DK-MSZP-PARBESZED,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,MOMENTUM,0,039
-Fovarosi lista,01,020,Budapest 20. kerület,06,ervenytelen,0,039
+Fovarosi lista,01,020,Budapest 20. kerület,06,ervenytelen,21,039
 Fovarosi lista,01,020,Budapest 20. kerület,06,FIDESZ,179,041
 Fovarosi lista,01,020,Budapest 20. kerület,06,TISZA,128,041
 Fovarosi lista,01,020,Budapest 20. kerület,06,DK-MSZP-PARBESZED,70,041
@@ -13727,13 +13727,13 @@ Fovarosi lista,01,021,Budapest 21. kerület,05,Munkaspart,1,016
 Fovarosi lista,01,021,Budapest 21. kerület,05,Szolidaritas,1,016
 Fovarosi lista,01,021,Budapest 21. kerület,05,Nep Partjan,0,016
 Fovarosi lista,01,021,Budapest 21. kerület,05,ervenytelen,9,016
-Fovarosi lista,01,021,Budapest 21. kerület,05,TISZA,194,018
+Fovarosi lista,01,021,Budapest 21. kerület,05,TISZA,195,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,FIDESZ,186,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,DK-MSZP-PARBESZED,74,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,Vitezy-LMP,62,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,MKKP,39,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,MOMENTUM,33,018
-Fovarosi lista,01,021,Budapest 21. kerület,05,Mi Hazank,27,018
+Fovarosi lista,01,021,Budapest 21. kerület,05,Mi Hazank,28,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,Munkaspart,2,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,Nep Partjan,1,018
 Fovarosi lista,01,021,Budapest 21. kerület,05,Szolidaritas,1,018
