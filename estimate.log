@@ -52,19 +52,40 @@ Notes:
 
 . 
 . foreach jelolt in `jeloltek' {
-  2.     nl (`jelolt' = `formula') if part_total>0, noconstant
-  3.     foreach part in `partok' {
-  4.         scalar `jelolt'_`part' = normal(_b[/`part'])
-  5.         *generate `jelolt'_X_`part' = `jelolt'_`part' * `part'
+  2.     regress `jelolt' `partok' if part_total>0, noconstant robust
+  3.     nl (`jelolt' = `formula') if part_total>0, noconstant
+  4.     foreach part in `partok' {
+  5.         scalar `jelolt'_`part' = normal(_b[/`part'])
+  6.         *generate `jelolt'_X_`part' = `jelolt'_`part' * `part'
 .     }
-  6.     predict `jelolt'_predict
-  7.     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
-  8.     scatter `jelolt' `jelolt'_predict, msize(tiny)
-  9. 
+  7.     predict `jelolt'_predict
+  8.     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
+  9.     scatter `jelolt' `jelolt'_predict, msize(tiny)
+ 10. 
 .     * evaluate model
 .     summarize ae_`jelolt' if `jelolt'>0 & `jelolt'_predict>0, detail
- 10.     scalar hiba_`jelolt' = r(mean)
- 11. }
+ 11.     scalar hiba_`jelolt' = r(mean)
+ 12. }
+
+Linear regression                               Number of obs     =      1,354
+                                                F(8, 1346)        >   99999.00
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.9986
+                                                Root MSE          =     10.813
+
+------------------------------------------------------------------------------
+             |               Robust
+   karacsony | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |   .7854948   .0180701    43.47   0.000     .7500462    .8209435
+    mihazank |  -.2021124   .0482557    -4.19   0.000     -.296777   -.1074479
+       tisza |   .7104238   .0114172    62.22   0.000     .6880264    .7328212
+         lmp |  -.1063512   .0247917    -4.29   0.000    -.1549857   -.0577166
+      fidesz |   .0126173    .008592     1.47   0.142    -.0042379    .0294724
+          dk |   1.071789   .0151675    70.66   0.000     1.042034    1.101543
+    momentum |   .9386172   .0231409    40.56   0.000     .8932211    .9840134
+   kispartok |   .5959931   .2511045     2.37   0.018     .1033943    1.088592
+------------------------------------------------------------------------------
 
 Iteration 0:  Residual SS =   439422
 Iteration 1:  Residual SS = 250106.4
@@ -114,6 +135,26 @@ Iteration 10: Residual SS = 166285.8
 90%     3.147195        8.06742       Variance       1.573229
 95%     3.991769       8.070304       Skewness         1.5973
 99%     5.809659       8.765491       Kurtosis        6.69606
+
+Linear regression                               Number of obs     =      1,354
+                                                F(8, 1346)        =   89341.11
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.9982
+                                                Root MSE          =     11.938
+
+------------------------------------------------------------------------------
+             |               Robust
+      vitezy | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |   .2256131   .0189724    11.89   0.000     .1883945    .2628318
+    mihazank |   .0961109   .0473053     2.03   0.042     .0033107     .188911
+       tisza |   .3192318   .0119178    26.79   0.000     .2958524    .3426113
+         lmp |   1.081372   .0286704    37.72   0.000     1.025129    1.137616
+      fidesz |   .9173026   .0096205    95.35   0.000     .8984298    .9361755
+          dk |  -.0669545   .0149954    -4.46   0.000    -.0963715   -.0375375
+    momentum |   .0059879   .0247855     0.24   0.809    -.0426346    .0546104
+   kispartok |  -.2764659   .2263547    -1.22   0.222    -.7205123    .1675804
+------------------------------------------------------------------------------
 
 Iteration 0:  Residual SS = 226319.5
 Iteration 1:  Residual SS = 207359.6
@@ -165,6 +206,26 @@ Iteration 11: Residual SS = 197638.1
 95%     4.426693       15.56493       Skewness       3.082172
 99%     6.239846       20.62481       Kurtosis       27.94446
 
+Linear regression                               Number of obs     =      1,354
+                                                F(8, 1346)        =    3557.45
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.9587
+                                                Root MSE          =     6.1979
+
+------------------------------------------------------------------------------
+             |               Robust
+   grundtner | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |  -.0747338   .0102212    -7.31   0.000    -.0947851   -.0546825
+    mihazank |   .8892932   .0269154    33.04   0.000     .8364925    .9420939
+       tisza |    .004275   .0060619     0.71   0.481    -.0076167    .0161668
+         lmp |   .0599275   .0152154     3.94   0.000      .030079     .089776
+      fidesz |    .040696   .0047291     8.61   0.000     .0314187    .0499733
+          dk |   .0124247   .0071869     1.73   0.084     -.001674    .0265235
+    momentum |  -.0375323   .0137651    -2.73   0.006    -.0645356   -.0105289
+   kispartok |   .2800571   .1294219     2.16   0.031     .0261666    .5339476
+------------------------------------------------------------------------------
+
 Iteration 0:  Residual SS =  4229736
 Iteration 1:  Residual SS =   465100
 Iteration 2:  Residual SS = 128246.9
@@ -214,6 +275,26 @@ Iteration 11: Residual SS = 55098.61
 90%     1.897377        5.40132       Variance       .5843031
 95%      2.40751       5.493029       Skewness       1.736854
 99%     3.437833       6.464808       Kurtosis       8.230862
+
+Linear regression                               Number of obs     =      1,354
+                                                F(8, 1346)        =     918.95
+                                                Prob > F          =     0.0000
+                                                R-squared         =     0.8438
+                                                Root MSE          =     7.9153
+
+------------------------------------------------------------------------------
+             |               Robust
+ervenytele~o | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+        mkkp |   .0519166    .013118     3.96   0.000     .0261828    .0776505
+    mihazank |   .0731678   .0331168     2.21   0.027     .0082016     .138134
+       tisza |   -.005235   .0075769    -0.69   0.490    -.0200989    .0096288
+         lmp |  -.0438121   .0177664    -2.47   0.014     -.078665   -.0089593
+      fidesz |   .0876239   .0061696    14.20   0.000     .0755208    .0997269
+          dk |     .01813   .0092646     1.96   0.051    -.0000448    .0363047
+    momentum |  -.0042519    .016521    -0.26   0.797    -.0366617    .0281578
+   kispartok |   .3029761   .1907485     1.59   0.112    -.0712207    .6771728
+------------------------------------------------------------------------------
 
 Iteration 0:  Residual SS =  4128929
 Iteration 1:  Residual SS = 416182.3
@@ -341,6 +422,7 @@ variable jelolt was str9 now str14
 . keep jelolt `partok' 
 
 . export delimited "data/2024/budapest_becsles.csv", replace
+(file data/2024/budapest_becsles.csv not found)
 file data/2024/budapest_becsles.csv saved
 
 . 

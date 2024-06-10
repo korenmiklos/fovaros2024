@@ -15,6 +15,7 @@ foreach part in `partok' {
 }
 
 foreach jelolt in `jeloltek' {
+    regress `jelolt' `partok' if part_total>0, noconstant robust
     nl (`jelolt' = `formula') if part_total>0, noconstant
     foreach part in `partok' {
         scalar `jelolt'_`part' = normal(_b[/`part'])
