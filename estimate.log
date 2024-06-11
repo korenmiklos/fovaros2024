@@ -55,17 +55,18 @@ Notes:
   2.     regress `jelolt' `partok' if part_total>0, noconstant robust
   3.     nl (`jelolt' = `formula') if part_total>0, noconstant
   4.     foreach part in `partok' {
-  5.         scalar `jelolt'_`part' = exp(_b[/`part'])/(1+exp(_b[/`part']))
-  6.         *generate `jelolt'_X_`part' = `jelolt'_`part' * `part'
+  5.         scalar b_`jelolt'_`part' = _b[/`part']
+  6.         scalar `jelolt'_`part' = exp(_b[/`part'])/(1+exp(_b[/`part']))
+  7.         *generate `jelolt'_X_`part' = `jelolt'_`part' * `part'
 .     }
-  7.     predict `jelolt'_predict
-  8.     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
-  9.     scatter `jelolt' `jelolt'_predict, msize(tiny)
- 10. 
+  8.     predict `jelolt'_predict
+  9.     generate ae_`jelolt' = abs(`jelolt'_predict - `jelolt') / total * 100
+ 10.     scatter `jelolt' `jelolt'_predict, msize(tiny)
+ 11. 
 .     * evaluate model
 .     summarize ae_`jelolt' if `jelolt'>0 & `jelolt'_predict>0, detail
- 11.     scalar hiba_`jelolt' = r(mean)
- 12. }
+ 12.     scalar hiba_`jelolt' = r(mean)
+ 13. }
 
 Linear regression                               Number of obs     =      1,354
                                                 F(8, 1346)        >   99999.00
@@ -344,83 +345,288 @@ ervenytele~o | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
 99%     5.537375       19.84664       Kurtosis       55.67539
 
 . 
-. * estimate total number of votes by combination of parties and candidates
-. collapse (sum) `partok'
+. foreach part in `partok' {
+  2.     scalar logit_nest_`part' = 0
+  3.     foreach jelolt in `jeloltek' {
+  4.         scalar logit_nest_`part' = logit_nest_`part' + exp(b_`jelolt'_`par
+> t')
+  5.     }
+  6. }
 
-. expand 4
-(3 observations created)
+. local formula 0
 
-. egen index = seq()
+. foreach part in `partok' {
+  2.     local formula `formula' + exp({`part'})/(logit_nest_`part'+exp({`part'
+> }))*`part'
+  3. }
 
-. generate jelolt = "karacsony" if index == 1
-(3 missing values generated)
+. foreach jelolt in `jeloltek' {
+  2.     nl (`jelolt' = `formula') if part_total>0, noconstant
+  3.     foreach part in `partok' {
+  4.         scalar l_`jelolt'_`part' = exp(_b[/`part'])/(logit_nest_`part'+exp
+> (_b[/`part']))
+  5.     }
+  6. }
 
-. replace jelolt = "vitezy" if index == 2
-(1 real change made)
+Iteration 0:  Residual SS =  1491157
+Iteration 1:  Residual SS =  1491152
+Iteration 2:  Residual SS =  1491097
+Iteration 3:  Residual SS =  1457981
+Iteration 4:  Residual SS =  1439079
+Iteration 5:  Residual SS =  1434176
+Iteration 6:  Residual SS =  1433600
+Iteration 7:  Residual SS =  1433500
+Iteration 8:  Residual SS =  1433480
+Iteration 9:  Residual SS =  1433479
+Iteration 10: Residual SS =  1433478
+Iteration 11: Residual SS =  1433478
+Iteration 12: Residual SS =  1433478
+Iteration 13: Residual SS =  1433478
+Iteration 14: Residual SS =  1433478
+Iteration 15: Residual SS =  1433478
+Iteration 16: Residual SS =  1433478
+Iteration 17: Residual SS =  1228306
+Iteration 18: Residual SS =  1227170
+Iteration 19: Residual SS =  1226929
+Iteration 20: Residual SS =  1226869
+Iteration 21: Residual SS =  1226865
+Iteration 22: Residual SS =  1226865
+Iteration 23: Residual SS =  1226865
+Iteration 24: Residual SS =  1226865
+Iteration 25: Residual SS =  1226865
+Iteration 26: Residual SS =  1225167
+Iteration 27: Residual SS =  1225166
+Iteration 28: Residual SS =  1225166
 
-. replace jelolt = "grundtner" if index == 3
-(1 real change made)
 
-. replace jelolt = "ervenytelen_fo" if index == 4
-variable jelolt was str9 now str14
-(1 real change made)
+      Source |      SS            df       MS
+-------------+----------------------------------    Number of obs =      1,354
+       Model |  1.086e+08          3  36212234.8    R-squared     =     0.9888
+    Residual |  1225165.6       1351  906.858361    Adj R-squared =     0.9888
+-------------+----------------------------------    Root MSE      =   30.11409
+       Total |  1.099e+08       1354  81138.7518    Res. dev.     =    13060.2
 
-. 
-. foreach part in `partok'  {
-  2.     rename `part' `part'_szavazatok
-  3.     generate `part' = 0
-  4.     foreach jelolt in `jeloltek' {
-  5.         replace `part' = `jelolt'_`part' * `part'_szavazatok if jelolt == 
-> "`jelolt'"
-  6.     }
-  7.     replace `part' = round(`part')
-  8. }
-(1 real change made)
-(1 real change made)
-(0 real changes made)
-(1 real change made)
-(3 real changes made)
-(0 real changes made)
-(1 real change made)
-(1 real change made)
-(1 real change made)
-(3 real changes made)
-(1 real change made)
-(1 real change made)
-(0 real changes made)
-(0 real changes made)
-(1 real change made)
-(0 real changes made)
-(1 real change made)
-(1 real change made)
-(1 real change made)
-(2 real changes made)
-(0 real changes made)
-(1 real change made)
-(1 real change made)
-(1 real change made)
-(3 real changes made)
-(1 real change made)
-(1 real change made)
-(1 real change made)
-(1 real change made)
-(3 real changes made)
-(1 real change made)
-(1 real change made)
-(0 real changes made)
-(0 real changes made)
-(2 real changes made)
-(1 real change made)
-(0 real changes made)
-(1 real change made)
-(1 real change made)
-(3 real changes made)
+------------------------------------------------------------------------------
+   karacsony | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+       /mkkp |   587.8062          .        .       .            .           .
+   /mihazank |   2.843688   .4132058     6.88   0.000     2.033093    3.654282
+      /tisza |   387.7123          .        .       .            .           .
+        /lmp |          0  (constrained)
+     /fidesz |   .6515309   .1124384     5.79   0.000     .4309581    .8721037
+         /dk |          0  (constrained)
+   /momentum |   54.29432          .        .       .            .           .
+  /kispartok |   1.060825   .9288837     1.14   0.254    -.7613859    2.883036
+------------------------------------------------------------------------------
 
-. 
-. keep jelolt `partok' 
+Iteration 0:  Residual SS =  1034370
+Iteration 1:  Residual SS =   565940
+Iteration 2:  Residual SS = 561202.6
+Iteration 3:  Residual SS = 444898.4
+Iteration 4:  Residual SS = 414984.5
+Iteration 5:  Residual SS = 412343.8
+Iteration 6:  Residual SS = 412343.4
+Iteration 7:  Residual SS = 412343.4
+Iteration 8:  Residual SS = 412343.4
 
-. export delimited "data/2024/budapest_becsles.csv", replace
-file data/2024/budapest_becsles.csv saved
 
-. 
+      Source |      SS            df       MS
+-------------+----------------------------------    Number of obs =      1,354
+       Model |  1.075e+08          4  26864605.6    R-squared     =     0.9962
+    Residual |  412343.41       1350   305.43956    Adj R-squared =     0.9962
+-------------+----------------------------------    Root MSE      =   17.47683
+       Total |  1.079e+08       1354  79668.2171    Res. dev.     =   11585.73
+
+------------------------------------------------------------------------------
+      vitezy | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+       /mkkp |   .4941508   .1390839     3.55   0.000     .2213067    .7669949
+   /mihazank |   2.428318   .2280988    10.65   0.000     1.980851    2.875784
+      /tisza |   1.091845   .0472392    23.11   0.000     .9991752    1.184516
+        /lmp |          0  (constrained)
+     /fidesz |   176.5736          .        .       .            .           .
+         /dk |          0  (constrained)
+   /momentum |  -.5482183   1.547983    -0.35   0.723    -3.584931    2.488494
+  /kispartok |  -36081.32          .        .       .            .           .
+------------------------------------------------------------------------------
+
+Iteration 0:  Residual SS = 694451.3
+Iteration 1:  Residual SS = 345880.1
+Iteration 2:  Residual SS = 141414.5
+Iteration 3:  Residual SS = 128803.8
+Iteration 4:  Residual SS = 128579.6
+Iteration 5:  Residual SS = 128579.5
+Iteration 6:  Residual SS = 128579.5
+
+
+      Source |      SS            df       MS
+-------------+----------------------------------    Number of obs =      1,354
+       Model |  1122842.5          3  374280.839    R-squared     =     0.8973
+    Residual |  128579.48       1351  95.1735624    Adj R-squared =     0.8970
+-------------+----------------------------------    Root MSE      =   9.755694
+       Total |    1251422       1354  924.240768    Res. dev.     =    10007.9
+
+------------------------------------------------------------------------------
+   grundtner | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+       /mkkp |  -30.13495          .        .       .            .           .
+   /mihazank |  -20944.12          .        .       .            .           .
+      /tisza |  -1.939663   .1271854   -15.25   0.000    -2.189165    -1.69016
+        /lmp |          0  (constrained)
+     /fidesz |   .3132829   .0609777     5.14   0.000     .1936616    .4329042
+         /dk |          0  (constrained)
+   /momentum |  -1973.825          .        .       .            .           .
+  /kispartok |   1.207924   .3076398     3.93   0.000     .6044205    1.811428
+------------------------------------------------------------------------------
+
+Iteration 0:  Residual SS = 488471.1
+Iteration 1:  Residual SS = 136445.8
+Iteration 2:  Residual SS = 93773.67
+Iteration 3:  Residual SS =  87769.8
+Iteration 4:  Residual SS = 87098.12
+Iteration 5:  Residual SS = 86929.43
+Iteration 6:  Residual SS = 84991.95
+Iteration 7:  Residual SS = 84988.26
+Iteration 8:  Residual SS = 84988.26
+Iteration 9:  Residual SS = 84988.26
+Iteration 10: Residual SS = 84988.26
+Iteration 11: Residual SS = 84988.26
+Iteration 12: Residual SS = 84988.26
+
+
+      Source |      SS            df       MS
+-------------+----------------------------------    Number of obs =      1,354
+       Model |  454955.74          4  113738.934    R-squared     =     0.8426
+    Residual |  84988.265       1350  62.9542702    Adj R-squared =     0.8421
+-------------+----------------------------------    Root MSE      =   7.934373
+       Total |     539944       1354  398.776957    Res. dev.     =   9447.301
+
+------------------------------------------------------------------------------
+ervenytele~o | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+       /mkkp |  -1.631531   .2652716    -6.15   0.000    -2.151921   -1.111142
+   /mihazank |  -.0486987   .5118989    -0.10   0.924    -1.052903    .9555051
+      /tisza |  -11230.91          .        .       .            .           .
+        /lmp |          0  (constrained)
+     /fidesz |   .0002651   .0664479     0.00   0.997    -.1300873    .1306175
+         /dk |          0  (constrained)
+   /momentum |  -18984.77          .        .       .            .           .
+  /kispartok |  -.2257283   .2791455    -0.81   0.419    -.7733344    .3218778
+------------------------------------------------------------------------------
+
+. scalar list
+l_ervenytelen_fo_kispartok =  .29845267
+l_ervenytelen_fo_momentum =          0
+l_ervenytelen_fo_dk =  8.39e-228
+l_ervenytelen_fo_fidesz =  .08139191
+l_ervenytelen_fo_lmp =  5.80e-250
+l_ervenytelen_fo_tisza =          0
+l_ervenytelen_fo_mihazank =  .05650786
+l_ervenytelen_fo_mkkp =  .04419772
+l_grundtner_kispartok =  .64083162
+l_grundtner_momentum =          0
+l_grundtner_dk =  8.39e-228
+l_grundtner_fidesz =  .10807411
+l_grundtner_lmp =  5.80e-250
+l_grundtner_tisza =  .04987313
+l_grundtner_mihazank =          0
+l_grundtner_mkkp =  1.933e-14
+l_vitezy_kispartok =          0
+l_vitezy_momentum =  .02729225
+l_vitezy_dk =  8.39e-228
+l_vitezy_fidesz =          1
+l_vitezy_lmp =  5.80e-250
+l_vitezy_tisza =  .52108626
+l_vitezy_mihazank =  .41624871
+l_vitezy_mkkp =  .27924785
+l_karacsony_kispartok =  .60632169
+l_karacsony_momentum =          1
+l_karacsony_dk =  8.39e-228
+l_karacsony_fidesz =  .14525431
+l_karacsony_lmp =  5.80e-250
+l_karacsony_tisza =          1
+l_karacsony_mihazank =  .51928493
+l_karacsony_mkkp =          1
+logit_nest_kispartok =  1.8756376
+logit_nest_momentum =  20.599411
+logit_nest_dk =  1.19e+227
+logit_nest_fidesz =  11.289226
+logit_nest_lmp =  1.72e+249
+logit_nest_tisza =  2.7386096
+logit_nest_mihazank =   15.90303
+logit_nest_mkkp =  4.2306108
+hiba_ervenytelen_fo =  1.0820713
+ervenytelen_fo_kispartok =  .29829755
+b_ervenytelen_fo_kispartok = -.85541796
+ervenytelen_fo_momentum =          0
+b_ervenytelen_fo_momentum = -1.601e+09
+ervenytelen_fo_dk =  .00526845
+b_ervenytelen_fo_dk = -5.2407361
+ervenytelen_fo_fidesz =  .07999135
+b_ervenytelen_fo_fidesz = -2.4424645
+ervenytelen_fo_lmp =  2.022e-20
+b_ervenytelen_fo_lmp =  -45.34782
+ervenytelen_fo_tisza =          0
+b_ervenytelen_fo_tisza = -921.62606
+ervenytelen_fo_mihazank =   .0501781
+b_ervenytelen_fo_mihazank = -2.9406959
+ervenytelen_fo_mkkp =  .04147501
+b_ervenytelen_fo_mkkp = -3.1403045
+hiba_grundtner =  .92788253
+grundtner_kispartok =  .30282609
+b_grundtner_kispartok =  -.8338762
+grundtner_momentum =          0
+b_grundtner_momentum = -2.307e+09
+grundtner_dk =  .00190142
+b_grundtner_dk = -6.2632518
+grundtner_fidesz =  .02504113
+b_grundtner_fidesz = -3.6618755
+grundtner_lmp =  .03756261
+b_grundtner_lmp = -3.2434599
+grundtner_tisza =  2.67e-201
+b_grundtner_tisza = -461.83766
+grundtner_mihazank =  .94039276
+b_grundtner_mihazank =  2.7585206
+grundtner_mkkp =          0
+b_grundtner_mkkp =    -4435.1
+hiba_vitezy =  1.7069365
+vitezy_kispartok =          0
+b_vitezy_kispartok =  -9261.083
+vitezy_momentum =  .00931155
+b_vitezy_momentum = -4.6671449
+ vitezy_dk =  1.957e-17
+b_vitezy_dk = -38.472608
+vitezy_fidesz =  .91787524
+b_vitezy_fidesz =  2.4138219
+vitezy_lmp =          1
+b_vitezy_lmp =  573.88772
+vitezy_tisza =  .30792302
+b_vitezy_tisza = -.80984736
+vitezy_mihazank =  .06865457
+b_vitezy_mihazank = -2.6075425
+vitezy_mkkp =  .22160985
+b_vitezy_mkkp = -1.2563095
+hiba_karacsony =  1.5082179
+karacsony_kispartok =  .50401003
+b_karacsony_kispartok =  .01604048
+karacsony_momentum =  .95368229
+b_karacsony_momentum =  3.0248061
+karacsony_dk =          1
+b_karacsony_dk =  522.86205
+karacsony_fidesz =  1.161e-65
+b_karacsony_fidesz =  -149.5188
+karacsony_lmp =          0
+b_karacsony_lmp =  -32502361
+karacsony_tisza =  .69638857
+b_karacsony_tisza =  .83015909
+karacsony_mihazank =  1.20e-175
+b_karacsony_mihazank =  -402.7689
+karacsony_mkkp =   .7960282
+b_karacsony_mkkp =  1.3616528
+
+. BRK
+command BRK is unrecognized
+r(199);
+
 end of do-file
+r(199);

@@ -18,6 +18,7 @@ foreach jelolt in `jeloltek' {
     regress `jelolt' `partok' if part_total>0, noconstant robust
     nl (`jelolt' = `formula') if part_total>0, noconstant
     foreach part in `partok' {
+        scalar b_`jelolt'_`part' = _b[/`part']
         scalar `jelolt'_`part' = exp(_b[/`part'])/(1+exp(_b[/`part']))
         *generate `jelolt'_X_`part' = `jelolt'_`part' * `part'
     }
@@ -29,6 +30,25 @@ foreach jelolt in `jeloltek' {
     summarize ae_`jelolt' if `jelolt'>0 & `jelolt'_predict>0, detail
     scalar hiba_`jelolt' = r(mean)
 }
+
+foreach part in `partok' {
+    scalar logit_nest_`part' = 0
+    foreach jelolt in `jeloltek' {
+        scalar logit_nest_`part' = logit_nest_`part' + exp(b_`jelolt'_`part')
+    }
+}
+local formula 0
+foreach part in `partok' {
+    local formula `formula' + exp({`part'})/(logit_nest_`part'+exp({`part'}))*`part'
+}
+foreach jelolt in `jeloltek' {
+    nl (`jelolt' = `formula') if part_total>0, noconstant
+    foreach part in `partok' {
+        scalar l_`jelolt'_`part' = exp(_b[/`part'])/(logit_nest_`part'+exp(_b[/`part']))
+    }
+}
+scalar list
+BRK
 
 * estimate total number of votes by combination of parties and candidates
 collapse (sum) `partok'
